@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -814,12 +813,12 @@
       </div>
       <div class="skill-card">
         <div class="skill-icon">🗄️</div>
-        <h3>HRIS & People Systems</h3>
+        <h3>Data Systems</h3>
         <div class="skill-tags">
           <span class="tag">UKG Pro</span>
           <span class="tag">iCIMS ATS</span>
           <span class="tag">Workflow Mapping</span>
-          <span class="tag">U.S. HR Compliance</span>
+          <span class="tag">Data Compliance</span>
           <span class="tag">System Analysis</span>
         </div>
       </div>
@@ -831,7 +830,7 @@
           <span class="tag">Self-Managed</span>
           <span class="tag">Detail-Oriented</span>
           <span class="tag">Analytical Thinking</span>
-          <span class="tag">English C2</span>
+          <span class="tag">English C2 (CEFR)</span>
         </div>
       </div>
     </div>
@@ -848,164 +847,285 @@
 
       <!-- PROJECT 1: FreeCAD Mechanical -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/FreeCAD_1.0_Dark_Assembly_Example.png/800px-FreeCAD_1.0_Dark_Assembly_Example.png"
-            alt="FreeCAD Mechanical Assembly Annotation"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#0f1f38,#1a3a5c)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0b1e35,#162d4a); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#0d1f33" stroke="#2a9d8f" stroke-width="1"/>
+            <!-- Shaft -->
+            <rect x="40" y="65" width="80" height="30" rx="2" fill="rgba(42,157,143,0.15)" stroke="#2a9d8f" stroke-width="1.5"/>
+            <text x="55" y="84" font-size="8" fill="#2a9d8f" font-family="monospace">SHAFT_01</text>
+            <!-- Gear -->
+            <circle cx="170" cy="80" r="28" fill="rgba(233,196,106,0.08)" stroke="#e9c46a" stroke-width="1.5"/>
+            <circle cx="170" cy="80" r="16" fill="rgba(233,196,106,0.12)" stroke="#e9c46a" stroke-width="1"/>
+            <text x="153" y="84" font-size="8" fill="#e9c46a" font-family="monospace">GEAR_A</text>
+            <!-- Labels -->
+            <line x1="120" y1="80" x2="142" y2="80" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,2"/>
+            <rect x="28" y="28" width="48" height="12" rx="1" fill="rgba(42,157,143,0.2)" stroke="#2a9d8f" stroke-width="0.5"/>
+            <text x="32" y="37" font-size="6" fill="#3ab5a5" font-family="monospace">ASSEMBLY_v2</text>
+            <rect x="28" y="118" width="60" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">FreeCAD · Annotated</text>
+          </svg>
         </div>
         <div class="project-body">
-          <div class="project-cat">CAD Annotation · AI Training</div>
-          <div class="project-title">Mechanical Parts Classification — FreeCAD</div>
-          <div class="project-desc">Annotated 3D mechanical assemblies in FreeCAD, labelling components, joints, and tolerances to build training datasets for AI recognition models.</div>
+          <div class="project-cat">CAD Annotation · FreeCAD</div>
+          <div class="project-title">Mechanical Assembly Parts Classification</div>
+          <div class="project-desc">Annotated 3D mechanical assemblies in FreeCAD — labelling shafts, gears, joints, and tolerances to build structured training datasets for AI part-recognition models.</div>
           <div class="project-tags">
             <span class="project-tag">FreeCAD</span>
             <span class="project-tag">3D Labelling</span>
             <span class="project-tag">AI Training Data</span>
           </div>
-          <a href="https://www.freecad.org/features.php" target="_blank" class="project-view-btn">🔗 View Tool</a>
+          <a href="https://github.com/pallyleke-dev/cad-annotation-samples" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 2: BlenderBIM Structural -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/FreeCAD_1.0_Dark_BIM_Example.png/800px-FreeCAD_1.0_Dark_BIM_Example.png"
-            alt="BIM Structural Model Annotation"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#0d3b2e,#1a6b50)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0d2618,#163a24); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#0a1e12" stroke="#2a9d8f" stroke-width="1"/>
+            <!-- Floor slab -->
+            <rect x="35" y="110" width="190" height="14" rx="1" fill="rgba(42,157,143,0.2)" stroke="#2a9d8f" stroke-width="1.5"/>
+            <text x="95" y="121" font-size="7" fill="#2a9d8f" font-family="monospace">SLAB_GF</text>
+            <!-- Columns -->
+            <rect x="50" y="55" width="14" height="55" rx="1" fill="rgba(233,196,106,0.15)" stroke="#e9c46a" stroke-width="1.5"/>
+            <text x="38" y="50" font-size="6.5" fill="#e9c46a" font-family="monospace">COL_A</text>
+            <rect x="196" y="55" width="14" height="55" rx="1" fill="rgba(233,196,106,0.15)" stroke="#e9c46a" stroke-width="1.5"/>
+            <text x="192" y="50" font-size="6.5" fill="#e9c46a" font-family="monospace">COL_B</text>
+            <!-- Beam -->
+            <rect x="64" y="55" width="132" height="10" rx="1" fill="rgba(42,157,143,0.25)" stroke="#2a9d8f" stroke-width="1.5"/>
+            <text x="100" y="64" font-size="7" fill="#3ab5a5" font-family="monospace">BEAM_L1</text>
+            <rect x="28" y="118" width="72" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">BlenderBIM · IFC</text>
+          </svg>
         </div>
         <div class="project-body">
-          <div class="project-cat">CAD · BIM Annotation</div>
-          <div class="project-title">Structural Model Annotation — BlenderBIM</div>
-          <div class="project-desc">Applied semantic labels to BIM structural models in BlenderBIM/Bonsai, classifying beams, columns, and slabs to support digital twin development.</div>
+          <div class="project-cat">BIM Annotation · BlenderBIM</div>
+          <div class="project-title">Structural Model Semantic Labelling</div>
+          <div class="project-desc">Classified beams, columns, and floor slabs in BlenderBIM/Bonsai IFC models, applying semantic labels to support digital twin and structural AI development.</div>
           <div class="project-tags">
             <span class="project-tag">BlenderBIM</span>
-            <span class="project-tag">FreeCAD BIM/IFC</span>
+            <span class="project-tag">IFC Standards</span>
             <span class="project-tag">Semantic Labels</span>
           </div>
-          <a href="https://blenderbim.org/blenderbim/" target="_blank" class="project-view-btn">🔗 View Tool</a>
+          <a href="https://github.com/pallyleke-dev/bim-structural-annotation" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 3: AutoCAD 2D Drawing -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/FreeCAD_1.0_Light_PartDesign_Pozidriv.png/800px-FreeCAD_1.0_Light_PartDesign_Pozidriv.png"
-            alt="2D Technical Drawing Annotation"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#2d1a0f,#6e3a1a)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1e1206,#2e1d0a); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#160e04" stroke="#e9c46a" stroke-width="1"/>
+            <!-- Drawing outline -->
+            <rect x="40" y="35" width="110" height="80" rx="1" fill="none" stroke="rgba(233,196,106,0.5)" stroke-width="1"/>
+            <!-- Part shape -->
+            <path d="M55 95 L55 55 L100 55 L100 70 L130 70 L130 95 Z" fill="rgba(233,196,106,0.1)" stroke="#e9c46a" stroke-width="1.5"/>
+            <!-- Dimension lines -->
+            <line x1="55" y1="105" x2="130" y2="105" stroke="#2a9d8f" stroke-width="1"/>
+            <line x1="55" y1="102" x2="55" y2="108" stroke="#2a9d8f" stroke-width="1"/>
+            <line x1="130" y1="102" x2="130" y2="108" stroke="#2a9d8f" stroke-width="1"/>
+            <text x="82" y="114" font-size="7" fill="#2a9d8f" font-family="monospace">75mm</text>
+            <!-- Annotation labels -->
+            <rect x="160" y="38" width="68" height="36" rx="2" fill="rgba(42,157,143,0.08)" stroke="#2a9d8f" stroke-width="0.8"/>
+            <text x="164" y="50" font-size="6" fill="#3ab5a5" font-family="monospace">PART: BRK-04</text>
+            <text x="164" y="60" font-size="6" fill="rgba(255,255,255,0.5)" font-family="monospace">TOL: ±0.05</text>
+            <text x="164" y="70" font-size="6" fill="rgba(255,255,255,0.5)" font-family="monospace">MAT: STEEL</text>
+            <rect x="28" y="118" width="72" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">AutoCAD · Annotated</text>
+          </svg>
         </div>
         <div class="project-body">
           <div class="project-cat">CAD · AutoCAD · VectorWorks</div>
           <div class="project-title">2D Technical Drawing Annotation</div>
-          <div class="project-desc">Labelled AutoCAD and VectorWorks technical drawings for AI component recognition, tagging dimensions, tolerances, part references, and assembly notes.</div>
+          <div class="project-desc">Tagged dimensions, tolerances, material specs, and part references on AutoCAD and VectorWorks technical drawings to support AI component recognition pipelines.</div>
           <div class="project-tags">
             <span class="project-tag">AutoCAD</span>
             <span class="project-tag">VectorWorks</span>
             <span class="project-tag">Dimension Tagging</span>
           </div>
-          <a href="https://www.autodesk.com/products/autocad/overview" target="_blank" class="project-view-btn">🔗 View Tool</a>
+          <a href="https://github.com/pallyleke-dev/2d-drawing-annotation" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 4: IBM Cognos / DHL -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden; background:linear-gradient(135deg,#0a1f3a,#1a3a5c);">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cognos-Analytics-11-1-7-dashboard.png/800px-Cognos-Analytics-11-1-7-dashboard.png"
-            alt="IBM Cognos Analytics Dashboard"
-            onerror="this.parentElement.innerHTML='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:0.5rem;\'><span style=\'font-size:2.5rem;\'>📊</span><span style=\'font-size:0.7rem;color:rgba(255,255,255,0.4);font-family:monospace;\'>IBM COGNOS ANALYTICS</span></div>'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a1828,#0f243c); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#071220" stroke="#2a9d8f" stroke-width="1"/>
+            <!-- Bar chart -->
+            <rect x="40" y="90" width="20" height="35" rx="1" fill="rgba(42,157,143,0.6)"/>
+            <rect x="68" y="70" width="20" height="55" rx="1" fill="rgba(42,157,143,0.75)"/>
+            <rect x="96" y="55" width="20" height="70" rx="1" fill="rgba(42,157,143,0.9)"/>
+            <rect x="124" y="75" width="20" height="50" rx="1" fill="rgba(233,196,106,0.7)"/>
+            <rect x="152" y="45" width="20" height="80" rx="1" fill="rgba(42,157,143,0.85)"/>
+            <rect x="180" y="60" width="20" height="65" rx="1" fill="rgba(233,196,106,0.6)"/>
+            <!-- Baseline -->
+            <line x1="35" y1="125" x2="215" y2="125" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+            <!-- KPI labels -->
+            <rect x="28" y="26" width="90" height="14" rx="1" fill="rgba(42,157,143,0.15)"/>
+            <text x="32" y="36" font-size="7" fill="#3ab5a5" font-family="monospace">DHL OPS · COGNOS</text>
+            <text x="148" y="36" font-size="6.5" fill="#e9c46a" font-family="monospace">Accuracy: 98.4%</text>
+            <rect x="28" y="118" width="72" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">IBM Cognos Analytics</text>
+          </svg>
         </div>
         <div class="project-body">
           <div class="project-cat">Data Reporting · DHL</div>
-          <div class="project-title">Operational KPI Dashboard — IBM Cognos</div>
-          <div class="project-desc">Built and maintained recurring operational reports at DHL using IBM Cognos Analytics, tracking throughput, accuracy rates, and workflow efficiency across high-volume logistics shifts.</div>
+          <div class="project-title">Operational KPI Reporting — IBM Cognos</div>
+          <div class="project-desc">Built recurring shift reports at DHL using IBM Cognos Analytics — tracking throughput, accuracy rates, and workflow performance across high-volume logistics operations.</div>
           <div class="project-tags">
             <span class="project-tag">IBM Cognos</span>
             <span class="project-tag">KPI Reporting</span>
             <span class="project-tag">Data Validation</span>
-            <span class="project-tag">Logistics Ops</span>
           </div>
-          <a href="https://www.ibm.com/products/cognos-analytics" target="_blank" class="project-view-btn">🔗 View Tool</a>
+          <a href="https://github.com/pallyleke-dev/dhl-kpi-reporting" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 5: RGIS Inventory -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Barcode_Scanner_in_Warehouse.jpg/800px-Barcode_Scanner_in_Warehouse.jpg"
-            alt="Inventory Audit at RGIS"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#0d2a1f,#1a4a35)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0d2218,#163426); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#091a10" stroke="#2a9d8f" stroke-width="1"/>
+            <!-- Table header -->
+            <rect x="30" y="30" width="200" height="16" rx="1" fill="rgba(42,157,143,0.25)"/>
+            <text x="36" y="41" font-size="6.5" fill="#3ab5a5" font-family="monospace">SKU</text>
+            <text x="80" y="41" font-size="6.5" fill="#3ab5a5" font-family="monospace">EXPECTED</text>
+            <text x="140" y="41" font-size="6.5" fill="#3ab5a5" font-family="monospace">ACTUAL</text>
+            <text x="192" y="41" font-size="6.5" fill="#3ab5a5" font-family="monospace">VAR</text>
+            <!-- Rows -->
+            <text x="36" y="57" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">A-1042</text>
+            <text x="86" y="57" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">260</text>
+            <text x="146" y="57" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">248</text>
+            <text x="192" y="57" font-size="6" fill="#e9c46a" font-family="monospace">-12</text>
+            <text x="36" y="71" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">B-2201</text>
+            <text x="86" y="71" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">503</text>
+            <text x="146" y="71" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">503</text>
+            <text x="192" y="71" font-size="6" fill="#2a9d8f" font-family="monospace">0</text>
+            <text x="36" y="85" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">C-0087</text>
+            <text x="86" y="85" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">180</text>
+            <text x="146" y="85" font-size="6" fill="rgba(255,255,255,0.7)" font-family="monospace">174</text>
+            <text x="192" y="85" font-size="6" fill="#e9c46a" font-family="monospace">-6</text>
+            <line x1="30" y1="93" x2="230" y2="93" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+            <text x="36" y="106" font-size="6" fill="rgba(255,255,255,0.4)" font-family="monospace">Discrepancies flagged for review: 2</text>
+            <rect x="28" y="118" width="72" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">RGIS · Audit Report</text>
+          </svg>
         </div>
         <div class="project-body">
           <div class="project-cat">Inventory Audit · RGIS</div>
-          <div class="project-title">Inventory Discrepancy Reporting System</div>
-          <div class="project-desc">Designed structured audit workflows at RGIS to capture stock variances across client sites. Identified discrepancy root causes and produced resolution reports improving data integrity.</div>
+          <div class="project-title">Stock Variance & Discrepancy Reporting</div>
+          <div class="project-desc">Executed structured inventory audits at RGIS — identifying stock variances, flagging discrepancies, and producing resolution reports that improved data integrity across client sites.</div>
           <div class="project-tags">
             <span class="project-tag">Inventory Auditing</span>
             <span class="project-tag">Variance Analysis</span>
             <span class="project-tag">Data Integrity</span>
-            <span class="project-tag">Reporting</span>
           </div>
-          <a href="https://www.rgis.com/services/" target="_blank" class="project-view-btn">🔗 View Organisation</a>
+          <a href="https://github.com/pallyleke-dev/rgis-inventory-audit" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
-      <!-- PROJECT 6: UKG Pro / iCIMS -->
+      <!-- PROJECT 6: Rhino 3D -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HR_Management_Software_Screenshot.png/800px-HR_Management_Software_Screenshot.png"
-            alt="UKG Pro HRIS Workflow"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#1a1030,#2d1a50)'; this.parentElement.innerHTML+='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:0.6rem;padding:1rem;\'><div style=\'display:flex;gap:10px;width:90%;\'><div style=\'flex:1;background:rgba(233,196,106,0.1);border:1px solid rgba(233,196,106,0.4);border-radius:8px;padding:10px;\'><div style=\'font-size:0.6rem;color:#e9c46a;font-family:monospace;font-weight:700;margin-bottom:6px;\'>UKG PRO</div><div style=\'font-size:0.55rem;color:rgba(255,255,255,0.5);font-family:monospace;line-height:1.6;\'>✓ Onboarding<br>✓ Audit Log<br>✓ Compliance</div></div><div style=\'display:flex;align-items:center;color:rgba(255,255,255,0.3);font-size:0.9rem;\'>⇄</div><div style=\'flex:1;background:rgba(42,157,143,0.1);border:1px solid rgba(42,157,143,0.4);border-radius:8px;padding:10px;\'><div style=\'font-size:0.6rem;color:#2a9d8f;font-family:monospace;font-weight:700;margin-bottom:6px;\'>iCIMS ATS</div><div style=\'font-size:0.55rem;color:rgba(255,255,255,0.5);font-family:monospace;line-height:1.6;\'>✓ Pipeline<br>✓ Screening<br>✓ Workflow</div></div></div></div>'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1a0e28,#280e3c); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#100820" stroke="#9b5de5" stroke-width="1"/>
+            <!-- Rhino 3D wireframe mesh -->
+            <polygon points="130,35 80,100 180,100" fill="rgba(155,93,229,0.1)" stroke="#9b5de5" stroke-width="1.5"/>
+            <polygon points="130,35 180,100 195,65" fill="rgba(42,157,143,0.08)" stroke="#2a9d8f" stroke-width="1"/>
+            <polygon points="130,35 80,100 65,65" fill="rgba(42,157,143,0.08)" stroke="#2a9d8f" stroke-width="1"/>
+            <line x1="130" y1="35" x2="130" y2="100" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,2"/>
+            <!-- Label callouts -->
+            <circle cx="130" cy="35" r="4" fill="#e9c46a"/>
+            <text x="136" y="33" font-size="7" fill="#e9c46a" font-family="monospace">VERTEX_TOP</text>
+            <circle cx="80" cy="100" r="3" fill="#2a9d8f"/>
+            <text x="42" y="112" font-size="6.5" fill="#2a9d8f" font-family="monospace">VERTEX_L</text>
+            <circle cx="180" cy="100" r="3" fill="#2a9d8f"/>
+            <text x="183" y="112" font-size="6.5" fill="#2a9d8f" font-family="monospace">VERTEX_R</text>
+            <rect x="28" y="118" width="72" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">Rhino 3D · Annotated</text>
+          </svg>
         </div>
         <div class="project-body">
-          <div class="project-cat">HRIS · People Systems</div>
-          <div class="project-title">UKG Pro & iCIMS Workflow Documentation</div>
-          <div class="project-desc">Mapped end-to-end HRIS workflows in UKG Pro and iCIMS ATS — covering onboarding, data validation, and compliance audit trails — to support system analysis and process improvement.</div>
+          <div class="project-cat">CAD · Rhino 3D · SolveSpace</div>
+          <div class="project-title">3D Surface & Mesh Model Annotation</div>
+          <div class="project-desc">Annotated 3D surface and mesh models in Rhino 3D and SolveSpace — labelling vertices, edges, faces, and geometric constraints for AI shape-recognition training datasets.</div>
           <div class="project-tags">
-            <span class="project-tag">UKG Pro</span>
-            <span class="project-tag">iCIMS ATS</span>
-            <span class="project-tag">Workflow Docs</span>
-            <span class="project-tag">Compliance</span>
+            <span class="project-tag">Rhino 3D</span>
+            <span class="project-tag">SolveSpace</span>
+            <span class="project-tag">Mesh Labelling</span>
           </div>
-          <a href="https://www.ukg.com/solutions/hcm-software/hr-management" target="_blank" class="project-view-btn">🔗 View Tool</a>
+          <a href="https://github.com/pallyleke-dev/rhino3d-mesh-annotation" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 7: Object Detection -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg/800px-Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg"
-            alt="Object Detection Bounding Box Annotation"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#0f2d2d,#1a5e5e)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a2020,#0f3030); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#061818" stroke="#2a9d8f" stroke-width="1"/>
+            <!-- Bounding boxes -->
+            <rect x="40" y="38" width="70" height="55" rx="1" fill="none" stroke="#e9c46a" stroke-width="2"/>
+            <rect x="40" y="30" width="52" height="12" rx="1" fill="#e9c46a"/>
+            <text x="44" y="39" font-size="7" fill="#000" font-family="monospace" font-weight="bold">PART_A 94%</text>
+            <rect x="140" y="50" width="80" height="65" rx="1" fill="none" stroke="#2a9d8f" stroke-width="2"/>
+            <rect x="140" y="42" width="55" height="12" rx="1" fill="#2a9d8f"/>
+            <text x="144" y="51" font-size="7" fill="#fff" font-family="monospace" font-weight="bold">PART_B 87%</text>
+            <!-- Corner markers -->
+            <line x1="40" y1="43" x2="40" y2="38" stroke="#e9c46a" stroke-width="2"/><line x1="40" y1="38" x2="45" y2="38" stroke="#e9c46a" stroke-width="2"/>
+            <line x1="105" y1="38" x2="110" y2="38" stroke="#e9c46a" stroke-width="2"/><line x1="110" y1="38" x2="110" y2="43" stroke="#e9c46a" stroke-width="2"/>
+            <rect x="28" y="118" width="90" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">Bounding Box Annotation</text>
+          </svg>
         </div>
         <div class="project-body">
-          <div class="project-cat">AI Annotation · Image Data</div>
-          <div class="project-title">Object Detection Dataset Preparation</div>
-          <div class="project-desc">Prepared and reviewed image annotation datasets for object detection models, applying bounding boxes, polygon masks, and class labels across thousands of frames.</div>
+          <div class="project-cat">AI Annotation · Object Detection</div>
+          <div class="project-title">Bounding Box Dataset Preparation</div>
+          <div class="project-desc">Created and reviewed bounding box annotation datasets for object detection models — labelling classes, confidence zones, and spatial references across large image batches.</div>
           <div class="project-tags">
             <span class="project-tag">Bounding Boxes</span>
-            <span class="project-tag">Polygon Masks</span>
             <span class="project-tag">Class Labelling</span>
+            <span class="project-tag">QA Review</span>
           </div>
-          <a href="https://paperswithcode.com/task/object-detection" target="_blank" class="project-view-btn">🔗 View Reference</a>
+          <a href="https://github.com/pallyleke-dev/object-detection-annotation" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
       <!-- PROJECT 8: Point Cloud -->
       <div class="project-card">
-        <div class="project-visual" style="padding:0; height:180px; overflow:hidden;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Point_cloud_of_a_statue.png/800px-Point_cloud_of_a_statue.png"
-            alt="3D Point Cloud Labelling"
-            onerror="this.parentElement.style.background='linear-gradient(135deg,#2d2a0f,#6e5e1a)'; this.style.display='none';">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1e1a06,#2e2808); height:180px; display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="20" width="220" height="120" rx="3" fill="#140f02" stroke="#e9c46a" stroke-width="1"/>
+            <!-- Point cloud dots -->
+            <g fill="#e9c46a" opacity="0.8">
+              <circle cx="80" cy="70" r="2.5"/><circle cx="90" cy="60" r="2"/><circle cx="100" cy="75" r="2.5"/>
+              <circle cx="85" cy="85" r="2"/><circle cx="95" cy="90" r="2.5"/><circle cx="75" cy="80" r="2"/>
+              <circle cx="110" cy="65" r="2"/><circle cx="70" cy="65" r="2.5"/><circle cx="105" cy="82" r="2"/>
+            </g>
+            <g fill="#2a9d8f" opacity="0.8">
+              <circle cx="150" cy="55" r="2.5"/><circle cx="165" cy="65" r="2"/><circle cx="175" cy="55" r="2.5"/>
+              <circle cx="155" cy="75" r="2"/><circle cx="170" cy="80" r="2.5"/><circle cx="185" cy="68" r="2"/>
+              <circle cx="145" cy="68" r="2"/><circle cx="180" cy="50" r="2.5"/><circle cx="160" cy="90" r="2"/>
+            </g>
+            <!-- Label boxes -->
+            <rect x="62" y="100" width="52" height="12" rx="1" fill="rgba(233,196,106,0.2)" stroke="#e9c46a" stroke-width="0.8"/>
+            <text x="66" y="109" font-size="6.5" fill="#e9c46a" font-family="monospace">OBJ_CLASS_1</text>
+            <rect x="138" y="100" width="52" height="12" rx="1" fill="rgba(42,157,143,0.2)" stroke="#2a9d8f" stroke-width="0.8"/>
+            <text x="142" y="109" font-size="6.5" fill="#3ab5a5" font-family="monospace">OBJ_CLASS_2</text>
+            <rect x="28" y="118" width="80" height="10" rx="1" fill="rgba(255,255,255,0.04)"/>
+            <text x="32" y="126" font-size="5.5" fill="rgba(255,255,255,0.35)" font-family="monospace">Point Cloud · 3D Labels</text>
+          </svg>
         </div>
         <div class="project-body">
-          <div class="project-cat">AI Training Data · QA</div>
-          <div class="project-title">Point Cloud & 3D Object Labelling</div>
-          <div class="project-desc">Classified and labelled 3D point cloud objects for autonomous systems training, with quality assurance review at each annotation stage to ensure label accuracy.</div>
+          <div class="project-cat">AI Training Data · Point Cloud</div>
+          <div class="project-title">3D Point Cloud Object Labelling</div>
+          <div class="project-desc">Classified and labelled 3D point cloud objects across multiple categories — applying class labels and spatial boundaries with quality assurance review at each stage.</div>
           <div class="project-tags">
             <span class="project-tag">Point Cloud</span>
             <span class="project-tag">3D Object Labels</span>
             <span class="project-tag">QA Review</span>
           </div>
-          <a href="https://paperswithcode.com/task/3d-point-cloud-classification" target="_blank" class="project-view-btn">🔗 View Reference</a>
+          <a href="https://github.com/pallyleke-dev/point-cloud-labelling" target="_blank" class="project-view-btn">🔗 View on GitHub</a>
         </div>
       </div>
 
@@ -1031,7 +1151,7 @@
           <li>Producing annotated 3D CAD models and technical drawings using FreeCAD, AutoCAD Mechanical, Rhino 3D, VectorWorks, BlenderBIM/Bonsai, LibreCAD, and SolveSpace</li>
           <li>Building and refining digital assets to support AI model training workflows, ensuring labelling accuracy and consistency</li>
           <li>Applying structured data validation and quality review processes across annotation deliverables</li>
-          <li>Developing HRIS workflow documentation in UKG Pro and iCIMS ATS, supporting U.S. HR compliance analysis</li>
+          <li>Supporting data systems workflow documentation including HR platform analysis and process mapping</li>
         </ul>
       </div>
 
@@ -1085,6 +1205,12 @@
         <div class="edu-school">Babcock University · Nigeria</div>
         <div class="edu-year">2012</div>
       </div>
+      <div class="edu-card">
+        <div class="edu-degree">English Language Proficiency</div>
+        <div class="edu-field">C2 — CEFR Framework (Proficient User)</div>
+        <div class="edu-school">Educated and professionally active in English-speaking environments — UK (2022–2025), USA (2025–present)</div>
+        <div class="edu-year">Verified by academic & work history</div>
+      </div>
     </div>
   </div>
 </section>
@@ -1100,13 +1226,14 @@
     <div class="contact-links">
       <a href="mailto:pallyleke@gmail.com" class="contact-link">✉ pallyleke@gmail.com</a>
       <a href="tel:+14699937632" class="contact-link">📞 +1 (469) 993-7632</a>
-      <a href="https://github.com/pallyleke-dev" class="contact-link" target="_blank">🐙 GitHub Profile</a>
+      <a href="https://github.com/pallyleke-dev" class="contact-link" target="_blank">🐙 GitHub</a>
+      <a href="https://linkedin.com/in/segun-olukayode" class="contact-link" target="_blank">💼 LinkedIn</a>
     </div>
   </div>
 </section>
 
 <footer>
-  © 2025 Segun Olukayode · CAD Annotation Specialist · AI Training Data · Dallas, Texas
+  © 2026 Segun Olukayode · CAD Annotation Specialist · AI Training Data · Dallas, Texas
 </footer>
 
 </body>
