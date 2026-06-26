@@ -1,0 +1,41 @@
+# 3D Point Cloud Object Labelling
+
+Multi-class point cloud annotation for autonomous systems and 3D AI model training.
+
+## Overview
+This repository documents 3D point cloud labelling work — classifying object clusters, applying spatial boundaries, and assigning class labels across dense point cloud datasets. Work supports training of autonomous perception and 3D recognition models.
+
+## Tools Used
+- Point cloud annotation tools
+- Manual class label assignment
+- QA validation pipeline
+
+## Class Schema
+| Class ID | Label | Description |
+|----------|-------|-------------|
+| `OBJ_CLASS_1` | Mechanical Part A | Primary object cluster |
+| `OBJ_CLASS_2` | Mechanical Part B | Secondary object cluster |
+| `OBJ_CLASS_3` | Background | Non-target points |
+
+## Annotation Pipeline
+```
+1. Load raw .pcd / .las file
+2. Cluster segmentation
+3. Class label assignment per cluster
+4. Boundary validation
+5. QA review & export
+```
+
+## Sample Output
+```
+scan_0091.pcd
+├── Cluster_01 → OBJ_CLASS_1 [142 points]
+├── Cluster_02 → OBJ_CLASS_2 [98 points]
+└── Cluster_03 → OBJ_CLASS_3 [background]
+```
+
+## Status
+✅ Active
+
+---
+*Part of Segun Olukayode's AI Annotation Portfolio · [View Portfolio](https://pallyleke-dev.github.io/SEGUN-OLUKAYODE-dev/)*
