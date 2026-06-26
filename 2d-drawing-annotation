@@ -1,0 +1,34 @@
+# 2D Technical Drawing Annotation — AutoCAD & VectorWorks
+
+Dimension, tolerance, and part reference annotation on 2D CAD drawings for AI component recognition.
+
+## Overview
+Technical drawings produced in AutoCAD Mechanical and VectorWorks are annotated with structured labels covering dimensions, tolerances, material specifications, and part identifiers. Output supports AI-driven component classification pipelines.
+
+## Tools Used
+- AutoCAD Mechanical
+- VectorWorks
+- LibreCAD / QCAD CE
+
+## Annotation Fields
+| Field | Example | Description |
+|-------|---------|-------------|
+| `PART` | `BRK-04` | Part identifier |
+| `TOL` | `±0.05mm` | Manufacturing tolerance |
+| `MAT` | `STEEL` | Material specification |
+| `DIM` | `75mm` | Key dimension |
+
+## Sample Annotation Block
+```
+PART: BRK-04
+DIM:  75mm × 40mm
+TOL:  ±0.05
+MAT:  MILD STEEL
+REV:  v3
+```
+
+## Status
+✅ Active
+
+---
+*Part of Segun Olukayode's CAD Annotation Portfolio · [View Portfolio](https://pallyleke-dev.github.io/SEGUN-OLUKAYODE-dev/)*
