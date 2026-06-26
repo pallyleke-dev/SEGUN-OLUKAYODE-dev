@@ -1,0 +1,34 @@
+# BIM Structural Annotation — BlenderBIM / IFC
+
+Semantic labelling of structural BIM models for AI digital twin development.
+
+## Overview
+This repository documents structural model annotation work using BlenderBIM/Bonsai and FreeCAD BIM/IFC. Models are labelled at the element level — beams, columns, slabs, and walls — following IFC standards for interoperability.
+
+## Tools Used
+- BlenderBIM / Bonsai
+- FreeCAD BIM / IFC workbench
+- IFC 4.x schema
+
+## Annotation Schema
+| Label | IFC Class | Description |
+|-------|-----------|-------------|
+| `BEAM_Lx` | IfcBeam | Horizontal structural beams |
+| `COL_x` | IfcColumn | Vertical columns |
+| `SLAB_GF` | IfcSlab | Floor and roof slabs |
+| `WALL_xx` | IfcWall | Load-bearing wall elements |
+
+## Sample Output
+```
+Building_Model_v1.ifc
+├── COL_A    → IfcColumn [labelled]
+├── COL_B    → IfcColumn [labelled]
+├── BEAM_L1  → IfcBeam   [labelled]
+└── SLAB_GF  → IfcSlab   [labelled]
+```
+
+## Status
+✅ Active
+
+---
+*Part of Segun Olukayode's CAD Annotation Portfolio · [View Portfolio](https://pallyleke-dev.github.io/SEGUN-OLUKAYODE-dev/)*
