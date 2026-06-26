@@ -1,0 +1,34 @@
+# CAD Annotation Samples — FreeCAD
+
+Mechanical assembly annotation work produced using FreeCAD for AI training data pipelines.
+
+## Overview
+This repository contains annotated 3D mechanical assembly files created in FreeCAD. Components including shafts, gears, joints, and fasteners are labelled with structured metadata to support AI part-recognition model training.
+
+## Tools Used
+- FreeCAD 0.21
+- Part Design & Assembly workbenches
+- Manual annotation with structured label schema
+
+## Annotation Schema
+| Label | Description |
+|-------|-------------|
+| `SHAFT_xx` | Rotational shaft components |
+| `GEAR_xx` | Gear and sprocket elements |
+| `JOINT_xx` | Connection and fastener points |
+| `ASSEMBLY_vx` | Full assembly version tag |
+
+## Sample Output
+```
+ASSEMBLY_v2
+├── SHAFT_01 [annotated]
+├── GEAR_A   [annotated]
+├── JOINT_03 [annotated]
+└── BASE_PLT [annotated]
+```
+
+## Status
+✅ Active — annotation samples updated regularly
+
+---
+*Part of Segun Olukayode's CAD Annotation Portfolio · [View Portfolio](https://pallyleke-dev.github.io/SEGUN-OLUKAYODE-dev/)*
