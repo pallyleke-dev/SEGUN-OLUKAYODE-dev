@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Segun Olukayode — CAD Annotation Specialist & AI Training Data</title>
+<meta name="description" content="Segun Olukayode is a CAD Annotation Specialist and Data Analyst based in Dallas, TX. Proficient in FreeCAD, AutoCAD, Rhino 3D, BlenderBIM, and AI training data annotation.">
+<meta name="keywords" content="CAD annotation, FreeCAD, AutoCAD, Rhino 3D, BlenderBIM, AI training data, data analyst, Dallas">
+<meta name="author" content="Segun Olukayode">
+<meta property="og:title" content="Segun Olukayode — CAD Annotation Specialist">
+<meta property="og:description" content="CAD Annotation Specialist & AI Training Data professional based in Dallas, TX.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pallyleke-dev.github.io/SEGUN-OLUKAYODE-dev/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a1628'/><text y='.9em' font-size='80' x='10'>S</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1628;--navy-mid:#112240;--teal:#1e8f82;--teal-light:#2ec4b6;--gold:#f4a261;--cream:#f4f6f9;--text:#0f172a;--muted:#64748b;--white:#fff;--border:#e2e8f0;}
+html{scroll-behavior:smooth;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--text);line-height:1.6;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;background:rgba(10,22,40,0.97);backdrop-filter:blur(10px);z-index:1000;padding:0 5%;display:flex;justify-content:space-between;align-items:center;height:60px;border-bottom:1px solid rgba(46,196,182,0.2);}
+.nav-logo{font-family:'Playfair Display',serif;color:var(--gold);font-size:1.1rem;}
+.nav-links{display:flex;gap:2rem;}
+.nav-links a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:0.82rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;transition:color 0.2s;}
+.nav-links a:hover{color:var(--teal-light);}
+
+/* HERO */
+.hero{min-height:100vh;background:var(--navy);display:flex;align-items:center;padding:100px 5% 80px;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-30%;right:-10%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(46,196,182,0.08) 0%,transparent 70%);pointer-events:none;}
+.hero-inner{max-width:1000px;margin:0 auto;position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center;}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:0.6rem;background:rgba(46,196,182,0.12);border:1px solid rgba(46,196,182,0.35);border-radius:100px;padding:0.35rem 1rem;color:var(--teal-light);font-size:0.78rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1.5rem;}
+.hero-eyebrow::before{content:'';width:6px;height:6px;background:var(--teal-light);border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,6vw,4.5rem);color:#fff;line-height:1.1;margin-bottom:0.4rem;}
+.hero h1 span{color:var(--gold);}
+.hero-sub{font-size:clamp(0.95rem,2vw,1.15rem);color:var(--teal-light);font-weight:500;margin-bottom:1.5rem;}
+.hero-desc{color:rgba(255,255,255,0.62);font-size:0.97rem;max-width:540px;margin-bottom:2.5rem;line-height:1.78;}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-primary{background:var(--teal);color:#fff;padding:0.75rem 1.8rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.88rem;transition:background 0.2s,transform 0.15s;display:inline-flex;align-items:center;gap:0.5rem;}
+.btn-primary:hover{background:var(--teal-light);transform:translateY(-1px);}
+.btn-outline{border:1.5px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8);padding:0.75rem 1.8rem;border-radius:6px;text-decoration:none;font-weight:500;font-size:0.88rem;transition:border-color 0.2s,color 0.2s;}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold);}
+.hero-stats{display:flex;gap:3rem;margin-top:4rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,0.08);}
+.stat-num{font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold);display:block;line-height:1;}
+.stat-label{font-size:0.73rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-top:0.3rem;}
+.hero-photo{width:220px;height:270px;border-radius:16px;overflow:hidden;border:3px solid rgba(46,196,182,0.45);box-shadow:0 0 50px rgba(46,196,182,0.18),0 20px 40px rgba(0,0,0,0.4);flex-shrink:0;position:relative;}
+.hero-photo::after{content:'';position:absolute;inset:0;border-radius:16px;background:linear-gradient(to bottom,transparent 60%,rgba(10,22,40,0.35));pointer-events:none;}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;}
+
+/* SECTIONS */
+section{padding:90px 5%;}
+.section-inner{max-width:960px;margin:0 auto;}
+.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:0.6rem;}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);color:var(--navy);margin-bottom:1rem;line-height:1.2;}
+.section-intro{color:var(--muted);max-width:580px;font-size:0.97rem;line-height:1.75;margin-bottom:3rem;}
+
+/* ABOUT */
+#about{background:#fff;}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;}
+.about-text p{color:#374151;font-size:0.97rem;line-height:1.82;margin-bottom:1rem;}
+.about-highlight{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-mid) 100%);border-radius:12px;padding:2rem;color:#fff;}
+.about-highlight h3{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--gold);margin-bottom:1.2rem;}
+.highlight-item{display:flex;align-items:flex-start;gap:0.8rem;margin-bottom:1rem;font-size:0.88rem;color:rgba(255,255,255,0.78);line-height:1.55;}
+.highlight-dot{width:6px;height:6px;background:var(--teal-light);border-radius:50%;margin-top:0.45rem;flex-shrink:0;}
+
+/* TESTIMONIAL */
+#testimonial{background:var(--cream);padding:60px 5%;}
+.testimonial-inner{max-width:760px;margin:0 auto;text-align:center;}
+.testimonial-stars{color:var(--gold);font-size:1.1rem;margin-bottom:1rem;letter-spacing:0.1em;}
+.testimonial-quote{font-family:'Playfair Display',serif;font-size:clamp(1.05rem,2.5vw,1.35rem);color:var(--navy);line-height:1.7;margin-bottom:1.5rem;position:relative;padding:0 2rem;}
+.testimonial-quote::before{content:'"';position:absolute;left:0;top:-0.2rem;font-size:3rem;color:var(--teal);font-family:'Playfair Display',serif;line-height:1;}
+.testimonial-author{font-size:0.85rem;font-weight:600;color:var(--teal);letter-spacing:0.05em;}
+.testimonial-role{font-size:0.78rem;color:var(--muted);margin-top:0.2rem;}
+
+/* SKILLS */
+#skills{background:var(--cream);}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.skill-card{background:#fff;border:1px solid var(--border);border-radius:10px;padding:1.6rem;transition:border-color 0.2s,box-shadow 0.2s;}
+.skill-card:hover{border-color:var(--teal);box-shadow:0 4px 20px rgba(30,143,130,0.1);}
+.skill-icon{font-size:1.6rem;margin-bottom:0.8rem;}
+.skill-card h3{font-size:0.85rem;font-weight:700;color:var(--navy);margin-bottom:0.6rem;letter-spacing:0.03em;text-transform:uppercase;}
+.skill-tags{display:flex;flex-wrap:wrap;gap:0.4rem;}
+.tag{background:rgba(30,143,130,0.07);color:var(--teal);border:1px solid rgba(30,143,130,0.18);padding:0.2rem 0.6rem;border-radius:100px;font-size:0.74rem;font-weight:500;}
+
+/* PROJECTS */
+#projects{background:#fff;}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.project-card{background:var(--cream);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:border-color 0.2s,transform 0.2s,box-shadow 0.2s;}
+.project-card:hover{border-color:var(--teal);transform:translateY(-3px);box-shadow:0 8px 30px rgba(30,143,130,0.12);}
+.project-visual{height:160px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.project-body{padding:1.2rem;}
+.project-cat{font-size:0.68rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);margin-bottom:0.4rem;}
+.project-title{font-weight:700;font-size:0.92rem;color:var(--navy);margin-bottom:0.5rem;line-height:1.3;}
+.project-desc{font-size:0.8rem;color:var(--muted);line-height:1.6;margin-bottom:0.8rem;}
+.project-tags{display:flex;flex-wrap:wrap;gap:0.3rem;margin-bottom:0.8rem;}
+.project-tag{background:rgba(30,143,130,0.08);border:1px solid rgba(30,143,130,0.2);color:var(--teal);padding:0.15rem 0.5rem;border-radius:100px;font-size:0.7rem;font-weight:500;}
+.expand-btn{display:inline-flex;align-items:center;gap:0.4rem;background:var(--navy);color:#fff;border:none;padding:0.5rem 1rem;border-radius:6px;font-size:0.78rem;font-weight:600;cursor:pointer;transition:background 0.2s;font-family:'Inter',sans-serif;width:100%;}
+.expand-btn:hover{background:var(--teal);}
+.expand-btn .arrow{transition:transform 0.3s;margin-left:auto;}
+.expand-btn.open .arrow{transform:rotate(180deg);}
+
+/* PROJECT DETAIL PANEL */
+.project-detail{display:none;background:var(--navy);color:#fff;padding:0;max-height:0;overflow:hidden;transition:max-height 0.5s ease;}
+.project-detail.open{display:block;max-height:none;}
+.detail-inner{padding:2.5rem;}
+.detail-section{margin-bottom:2.5rem;}
+.detail-section h3{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--gold);margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:1px solid rgba(255,255,255,0.1);}
+.detail-section p{color:rgba(255,255,255,0.75);font-size:0.92rem;line-height:1.82;margin-bottom:0.9rem;}
+.detail-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1rem 0;}
+.detail-step{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:1.2rem;}
+.detail-step-num{font-size:0.65rem;font-weight:700;color:var(--teal-light);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;}
+.detail-step-title{font-weight:700;font-size:0.88rem;color:#fff;margin-bottom:0.4rem;}
+.detail-step-desc{font-size:0.8rem;color:rgba(255,255,255,0.55);line-height:1.6;}
+.detail-visual{background:rgba(0,0,0,0.3);border-radius:10px;padding:1.5rem;margin:1rem 0;overflow:hidden;}
+.detail-outcomes{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1rem 0;}
+.outcome-card{background:rgba(255,255,255,0.04);border-radius:8px;padding:1.2rem;text-align:center;}
+.outcome-num{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--gold);display:block;}
+.outcome-label{font-size:0.68rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-top:0.3rem;}
+.schema-table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.82rem;}
+.schema-table th{background:rgba(46,196,182,0.12);color:var(--teal-light);padding:0.5rem 0.8rem;text-align:left;font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;}
+.schema-table td{padding:0.5rem 0.8rem;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(255,255,255,0.7);}
+.code-block{background:rgba(0,0,0,0.4);border-radius:8px;padding:1rem 1.2rem;font-family:monospace;font-size:0.8rem;color:var(--teal-light);line-height:1.8;margin:1rem 0;overflow-x:auto;border:1px solid rgba(46,196,182,0.15);}
+.close-btn{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:rgba(255,255,255,0.7);padding:0.6rem 1.2rem;border-radius:6px;font-size:0.82rem;cursor:pointer;font-family:'Inter',sans-serif;margin-top:1rem;transition:background 0.2s;}
+.close-btn:hover{background:rgba(255,255,255,0.15);}
+
+/* FULL WIDTH PANEL - spans all 3 columns */
+.project-row{display:contents;}
+.project-panel-wrapper{grid-column:1/-1;border-radius:12px;overflow:hidden;margin-bottom:1rem;}
+
+/* EXPERIENCE */
+#experience{background:var(--cream);}
+.timeline{position:relative;padding-left:2rem;}
+.timeline::before{content:'';position:absolute;left:0;top:8px;bottom:0;width:2px;background:linear-gradient(to bottom,var(--teal),transparent);}
+.timeline-item{position:relative;margin-bottom:3rem;padding-left:2rem;}
+.timeline-item::before{content:'';position:absolute;left:-2rem;top:8px;width:10px;height:10px;border-radius:50%;background:var(--teal);border:2px solid var(--white);box-shadow:0 0 0 2px var(--teal);}
+.timeline-item:first-child::before{background:var(--gold);box-shadow:0 0 0 2px var(--gold);}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.4rem;flex-wrap:wrap;gap:0.5rem;}
+.job-title{font-weight:700;font-size:1rem;color:var(--navy);}
+.job-date{font-size:0.78rem;font-weight:600;color:var(--teal);background:rgba(30,143,130,0.08);border:1px solid rgba(30,143,130,0.2);padding:0.2rem 0.6rem;border-radius:100px;white-space:nowrap;}
+.job-company{font-size:0.88rem;color:var(--muted);margin-bottom:0.8rem;}
+.job-bullets{list-style:none;}
+.job-bullets li{font-size:0.9rem;color:#374151;padding:0.3rem 0 0.3rem 1.2rem;position:relative;line-height:1.6;}
+.job-bullets li::before{content:'→';position:absolute;left:0;color:var(--teal);font-size:0.8rem;}
+.current-badge{display:inline-block;background:rgba(244,162,97,0.15);border:1px solid rgba(244,162,97,0.5);color:#b8860b;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.15rem 0.5rem;border-radius:100px;margin-left:0.5rem;vertical-align:middle;}
+
+/* EDUCATION */
+#education{background:#fff;}
+.edu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.edu-card{background:var(--cream);border:1px solid var(--border);border-radius:10px;padding:1.8rem;transition:border-color 0.2s;}
+.edu-card:hover{border-color:var(--teal);}
+.edu-degree{font-weight:700;font-size:0.95rem;color:var(--navy);margin-bottom:0.3rem;}
+.edu-field{font-size:0.88rem;color:var(--teal);font-weight:500;margin-bottom:0.5rem;}
+.edu-school{font-size:0.83rem;color:var(--muted);}
+.edu-year{font-size:0.75rem;font-weight:700;color:var(--gold);margin-top:0.8rem;letter-spacing:0.05em;}
+
+/* CONTACT */
+#contact{background:var(--navy);text-align:center;}
+#contact .section-title{color:#fff;}
+#contact .section-label{color:var(--teal-light);}
+.contact-desc{color:rgba(255,255,255,0.58);font-size:0.97rem;max-width:480px;margin:0 auto 2.5rem;line-height:1.75;}
+.contact-links{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;}
+.contact-link{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.14);color:rgba(255,255,255,0.82);padding:0.75rem 1.4rem;border-radius:8px;text-decoration:none;font-size:0.88rem;font-weight:500;transition:background 0.2s,border-color 0.2s;}
+.contact-link:hover{background:rgba(46,196,182,0.15);border-color:var(--teal);color:var(--teal-light);}
+
+footer{background:#060e1a;text-align:center;padding:1.5rem;color:rgba(255,255,255,0.28);font-size:0.78rem;letter-spacing:0.05em;}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .nav-links{display:none;}
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-photo{display:none;}
+  .about-grid{grid-template-columns:1fr;gap:2rem;}
+  .skills-grid{grid-template-columns:1fr 1fr;}
+  .projects-grid{grid-template-columns:1fr;}
+  .edu-grid{grid-template-columns:1fr;}
+  .hero-stats{gap:2rem;}
+  .detail-steps{grid-template-columns:1fr;}
+  .detail-outcomes{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:480px){
+  .skills-grid{grid-template-columns:1fr;}
+  .detail-outcomes{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">S. Olukayode</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Available for New Opportunities</div>
+      <h1>Segun<br><span>Olukayode</span></h1>
+      <p class="hero-sub">CAD Annotation Specialist · AI Training Data · Data Analyst</p>
+      <p class="hero-desc">Detail-oriented data professional with hands-on experience in CAD modelling, AI training data preparation, and operational reporting. I bring precision and consistency to every technical task.</p>
+      <div class="hero-actions">
+        <a href="mailto:pallyleke@gmail.com" class="btn-primary">✉ Get in Touch</a>
+        <a href="#projects" class="btn-outline">View Projects</a>
+      </div>
+      <div class="hero-stats">
+        <div><span class="stat-num">8+</span><span class="stat-label">CAD Tools Proficient</span></div>
+        <div><span class="stat-num">MSc</span><span class="stat-label">Supply Chain, Hull</span></div>
+        <div><span class="stat-num">C2</span><span class="stat-label">English Proficiency</span></div>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="data:image/jpeg;base64,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" alt="Segun Olukayode">
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-inner">
+    <p class="section-label">Who I Am</p>
+    <h2 class="section-title">Data-driven. Detail-obsessed.<br>Technically versatile.</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a CAD Annotation Specialist and Data Analyst with hands-on experience across professional CAD tools, AI training data preparation, and high-volume data operations.</p>
+        <p>My background spans logistics reporting at DHL, precision inventory auditing at RGIS, and independent CAD and annotation work — building expertise across FreeCAD, AutoCAD Mechanical, AutoDesk Inventor, Rhino 3D, VectorWorks, BlenderBIM/Bonsai, LibreCAD, and SolveSpace.</p>
+        <p>I thrive in remote, self-managed environments and bring the same rigour I developed in data operations to every annotation and modelling task I take on.</p>
+      </div>
+      <div class="about-highlight">
+        <h3>Core Strengths</h3>
+        <div class="highlight-item"><span class="highlight-dot"></span><span>Proficient across a wide range of professional CAD and BIM tools</span></div>
+        <div class="highlight-item"><span class="highlight-dot"></span><span>Experienced in 3D digital asset annotation and AI training data preparation</span></div>
+        <div class="highlight-item"><span class="highlight-dot"></span><span>Strong data validation and quality assurance discipline from operational roles</span></div>
+        <div class="highlight-item"><span class="highlight-dot"></span><span>Reliable remote worker with strong written and spoken English (C2 CEFR)</span></div>
+        <div class="highlight-item"><span class="highlight-dot"></span><span>MSc-level analytical thinking applied to complex technical tasks</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonial" style="background:var(--cream);padding:60px 5%;">
+  <div class="testimonial-inner">
+    <div class="testimonial-stars">★★★★★</div>
+    <p class="testimonial-quote">Segun consistently delivered accurate, well-structured annotation work. His attention to labelling detail and understanding of CAD geometry was immediately apparent — he flagged edge cases other annotators missed entirely.</p>
+    <div class="testimonial-author">Former Project Lead</div>
+    <div class="testimonial-role">AI Training Data Project · Remote Collaboration</div>
+  </div>
+</section>
+
+<section id="skills" style="background:#fff;">
+  <div class="section-inner">
+    <p class="section-label">Capabilities</p>
+    <h2 class="section-title">Skills & Tools</h2>
+    <p class="section-intro">CAD tools, AI annotation, and data operations — built for professional AI research projects.</p>
+    <div class="skills-grid">
+      <div class="skill-card"><div class="skill-icon">🏗️</div><h3>CAD Modelling Tools</h3><div class="skill-tags"><span class="tag">FreeCAD</span><span class="tag">AutoCAD Mechanical</span><span class="tag">AutoDesk Inventor</span><span class="tag">Rhino 3D</span><span class="tag">VectorWorks</span><span class="tag">LibreCAD/QCAD CE</span><span class="tag">SolveSpace</span></div></div>
+      <div class="skill-card"><div class="skill-icon">🧱</div><h3>BIM & IFC Tools</h3><div class="skill-tags"><span class="tag">FreeCAD BIM/IFC</span><span class="tag">BlenderBIM/Bonsai</span><span class="tag">Structural Modelling</span><span class="tag">Digital Twin Assets</span><span class="tag">IFC Standards</span></div></div>
+      <div class="skill-card"><div class="skill-icon">🤖</div><h3>AI Data Annotation</h3><div class="skill-tags"><span class="tag">3D CAD Annotation</span><span class="tag">Digital Asset Refinement</span><span class="tag">Bounding Boxes</span><span class="tag">Semantic Segmentation</span><span class="tag">Point Cloud Labelling</span><span class="tag">Quality Review</span></div></div>
+      <div class="skill-card"><div class="skill-icon">📊</div><h3>Data & Reporting</h3><div class="skill-tags"><span class="tag">SQL</span><span class="tag">IBM Cognos Analytics</span><span class="tag">Data Validation</span><span class="tag">Auditing</span><span class="tag">Process Mapping</span></div></div>
+      <div class="skill-card"><div class="skill-icon">🗄️</div><h3>Data Systems</h3><div class="skill-tags"><span class="tag">UKG Pro</span><span class="tag">iCIMS ATS</span><span class="tag">Workflow Mapping</span><span class="tag">Data Compliance</span><span class="tag">System Analysis</span></div></div>
+      <div class="skill-card"><div class="skill-icon">⚙️</div><h3>Work Style</h3><div class="skill-tags"><span class="tag">Remote-Ready</span><span class="tag">Self-Managed</span><span class="tag">Detail-Oriented</span><span class="tag">Analytical Thinking</span><span class="tag">English C2 (CEFR)</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-label">Portfolio</p>
+    <h2 class="section-title">Projects & Case Studies</h2>
+    <p class="section-intro">Click any project to expand the full case study — process, visuals, schema, and outcomes — all inline.</p>
+
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- PROJECT 1: FreeCAD -->
+      <div class="project-card" onclick="toggleProject('p1')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0f1f38,#1a3a5c);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#071220" stroke="#2ec4b6" stroke-width="1"/>
+            <ellipse cx="130" cy="70" rx="55" ry="45" fill="rgba(46,196,182,0.08)" stroke="#2ec4b6" stroke-width="1.5"/>
+            <rect x="105" y="48" width="50" height="10" rx="2" fill="rgba(46,196,182,0.2)" stroke="#2ec4b6" stroke-width="1"/>
+            <line x1="80" y1="70" x2="180" y2="70" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,3"/>
+            <circle cx="130" cy="70" r="8" fill="rgba(244,162,97,0.2)" stroke="#f4a261" stroke-width="1.5"/>
+            <text x="32" y="35" font-size="7" fill="#2ec4b6" font-family="monospace">SHAFT_01</text>
+            <text x="32" y="47" font-size="7" fill="#f4a261" font-family="monospace">GEAR_A</text>
+            <text x="32" y="59" font-size="7" fill="rgba(255,255,255,0.5)" font-family="monospace">JOINT_03</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">FreeCAD · ASSEMBLY_v2</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">CAD Annotation · FreeCAD</div>
+          <div class="project-title">Mechanical Assembly Parts Classification</div>
+          <div class="project-desc">Annotated 3D mechanical assemblies — labelling shafts, gears, joints, and tolerances for AI part-recognition model training.</div>
+          <div class="project-tags"><span class="project-tag">FreeCAD</span><span class="project-tag">3D Labelling</span><span class="project-tag">AI Training Data</span></div>
+          <button class="expand-btn" id="btn-p1">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PROJECT 2: BlenderBIM -->
+      <div class="project-card" onclick="toggleProject('p2')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0d2618,#163a24);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#0a1e12" stroke="#2ec4b6" stroke-width="1"/>
+            <rect x="35" y="95" width="190" height="14" rx="1" fill="rgba(42,157,143,0.2)" stroke="#2ec4b6" stroke-width="1.5"/>
+            <text x="95" y="106" font-size="7" fill="#2ec4b6" font-family="monospace">SLAB_GF</text>
+            <rect x="50" y="45" width="14" height="50" rx="1" fill="rgba(244,162,97,0.15)" stroke="#f4a261" stroke-width="1.5"/>
+            <text x="38" y="40" font-size="6.5" fill="#f4a261" font-family="monospace">COL_A</text>
+            <rect x="196" y="45" width="14" height="50" rx="1" fill="rgba(244,162,97,0.15)" stroke="#f4a261" stroke-width="1.5"/>
+            <text x="192" y="40" font-size="6.5" fill="#f4a261" font-family="monospace">COL_B</text>
+            <rect x="64" y="45" width="132" height="10" rx="1" fill="rgba(42,157,143,0.25)" stroke="#2ec4b6" stroke-width="1.5"/>
+            <text x="100" y="54" font-size="7" fill="#3ab5a5" font-family="monospace">BEAM_L1</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">BlenderBIM · IFC 4.x</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">BIM Annotation · BlenderBIM</div>
+          <div class="project-title">Structural Model Semantic Labelling</div>
+          <div class="project-desc">Classified beams, columns, and floor slabs in BlenderBIM IFC models with semantic labels for digital twin AI development.</div>
+          <div class="project-tags"><span class="project-tag">BlenderBIM</span><span class="project-tag">IFC Standards</span><span class="project-tag">Semantic Labels</span></div>
+          <button class="expand-btn" id="btn-p2">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: AutoCAD -->
+      <div class="project-card" onclick="toggleProject('p3')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1e1206,#2e1d0a);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#160e04" stroke="#e9c46a" stroke-width="1"/>
+            <rect x="40" y="30" width="110" height="75" rx="1" fill="none" stroke="rgba(233,196,106,0.5)" stroke-width="1"/>
+            <path d="M55 90 L55 50 L100 50 L100 65 L130 65 L130 90 Z" fill="rgba(233,196,106,0.1)" stroke="#e9c46a" stroke-width="1.5"/>
+            <line x1="55" y1="100" x2="130" y2="100" stroke="#2ec4b6" stroke-width="1"/>
+            <line x1="55" y1="97" x2="55" y2="103" stroke="#2ec4b6" stroke-width="1"/>
+            <line x1="130" y1="97" x2="130" y2="103" stroke="#2ec4b6" stroke-width="1"/>
+            <text x="82" y="112" font-size="7" fill="#2ec4b6" font-family="monospace">75mm</text>
+            <rect x="160" y="33" width="68" height="36" rx="2" fill="rgba(42,157,143,0.08)" stroke="#2ec4b6" stroke-width="0.8"/>
+            <text x="164" y="45" font-size="6" fill="#3ab5a5" font-family="monospace">PART: BRK-04</text>
+            <text x="164" y="55" font-size="6" fill="rgba(255,255,255,0.5)" font-family="monospace">TOL: ±0.05</text>
+            <text x="164" y="65" font-size="6" fill="rgba(255,255,255,0.5)" font-family="monospace">MAT: STEEL</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">AutoCAD · Dimension Annotation</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">CAD · AutoCAD · VectorWorks</div>
+          <div class="project-title">2D Technical Drawing Annotation</div>
+          <div class="project-desc">Tagged dimensions, tolerances, material specs, and part references on AutoCAD and VectorWorks technical drawings for AI pipelines.</div>
+          <div class="project-tags"><span class="project-tag">AutoCAD</span><span class="project-tag">VectorWorks</span><span class="project-tag">Dimension Tagging</span></div>
+          <button class="expand-btn" id="btn-p3">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PANEL ROW 1 (spans all 3 cols) -->
+      <div class="project-panel-wrapper" id="panel-p1" style="display:none;">
+        <div class="detail-inner" style="background:var(--navy);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>Take a set of complex 3D mechanical assemblies — shafts, helical gears, bearing housings, fasteners, and multi-part joints — and annotate every component with precision labels that an AI model could learn from. These weren't simple shapes; the assemblies included interlocking parts that looked similar from certain angles but were functionally completely different.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Model Intake & Review</div><div class="detail-step-desc">Each assembly opened in FreeCAD, reviewed in full — rotating the model, inspecting the part tree, understanding component relationships before labelling.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Label Schema Design</div><div class="detail-step-desc">Established consistent label taxonomy: SHAFT_xx for rotational elements, GEAR_xx for transmission parts, JOINT_xx for connection points, ASSEMBLY_vx for version tracking.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Component Annotation</div><div class="detail-step-desc">Each part selected within FreeCAD's model tree and assigned its label. Material properties, dimensional constraints, and spatial relationships recorded alongside each tag.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Edge Case Handling</div><div class="detail-step-desc">Overlapping components required sub-labels to distinguish parent/child relationships without breaking the annotation schema.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Quality Review</div><div class="detail-step-desc">Every annotated assembly reviewed against original specification. Mislabelled parts, missing tags, and inconsistent naming corrected before export.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">Export & Handoff</div><div class="detail-step-desc">Final models exported in AI-compatible formats with label manifests for each assembly version.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>📊 Annotation Schema</h3>
+            <table class="schema-table">
+              <tr><th>Label</th><th>Component Type</th><th>Example</th></tr>
+              <tr><td>SHAFT_xx</td><td>Rotational shaft elements</td><td>SHAFT_01, SHAFT_02</td></tr>
+              <tr><td>GEAR_xx</td><td>Gears, sprockets, pinions</td><td>GEAR_A, GEAR_B</td></tr>
+              <tr><td>JOINT_xx</td><td>Fasteners, connectors, bearings</td><td>JOINT_03</td></tr>
+              <tr><td>BASE_xx</td><td>Housing and base plates</td><td>BASE_PLT</td></tr>
+              <tr><td>ASSEMBLY_vx</td><td>Full assembly version tag</td><td>ASSEMBLY_v2</td></tr>
+            </table>
+            <div class="code-block">ASSEMBLY_v2
+├── SHAFT_01    [type: rotational | material: steel | ✓ annotated]
+├── GEAR_A      [type: helical | teeth: 32 | ✓ annotated]
+├── JOINT_03    [type: bearing | tolerance: ±0.02mm | ✓ annotated]
+└── BASE_PLT    [type: housing | material: cast iron | ✓ annotated]</div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="280" fill="#071220" rx="8"/>
+                <rect x="60" y="120" width="180" height="40" rx="4" fill="rgba(46,196,182,0.15)" stroke="#2ec4b6" stroke-width="2"/>
+                <circle cx="60" cy="140" r="20" fill="rgba(46,196,182,0.1)" stroke="#2ec4b6" stroke-width="2"/>
+                <circle cx="240" cy="140" r="20" fill="rgba(46,196,182,0.1)" stroke="#2ec4b6" stroke-width="2"/>
+                <text x="150" y="137" font-size="11" fill="#2ec4b6" font-family="monospace" font-weight="bold" text-anchor="middle">SHAFT_01</text>
+                <text x="150" y="152" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace" text-anchor="middle">rotational · steel</text>
+                <circle cx="350" cy="140" r="55" fill="rgba(244,162,97,0.1)" stroke="#f4a261" stroke-width="2"/>
+                <circle cx="350" cy="140" r="35" fill="rgba(244,162,97,0.08)" stroke="#f4a261" stroke-width="1.5" stroke-dasharray="4,2"/>
+                <circle cx="350" cy="140" r="10" fill="rgba(244,162,97,0.2)" stroke="#f4a261" stroke-width="1.5"/>
+                <text x="350" y="137" font-size="11" fill="#f4a261" font-family="monospace" font-weight="bold" text-anchor="middle">GEAR_A</text>
+                <text x="350" y="152" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace" text-anchor="middle">helical · 32T</text>
+                <rect x="450" y="115" width="60" height="50" rx="6" fill="rgba(155,93,229,0.12)" stroke="#9b5de5" stroke-width="2"/>
+                <circle cx="480" cy="140" r="15" fill="rgba(155,93,229,0.15)" stroke="#9b5de5" stroke-width="1.5"/>
+                <text x="480" y="137" font-size="9" fill="#9b5de5" font-family="monospace" font-weight="bold" text-anchor="middle">JOINT</text>
+                <text x="480" y="150" font-size="7.5" fill="rgba(255,255,255,0.4)" font-family="monospace" text-anchor="middle">_03</text>
+                <rect x="50" y="200" width="560" height="28" rx="4" fill="rgba(46,196,182,0.06)" stroke="rgba(46,196,182,0.3)" stroke-width="1.5" stroke-dasharray="5,3"/>
+                <text x="330" y="219" font-size="10" fill="rgba(46,196,182,0.5)" font-family="monospace" text-anchor="middle">BASE_PLT — housing · cast iron</text>
+                <line x1="240" y1="140" x2="295" y2="140" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3,2"/>
+                <line x1="405" y1="140" x2="450" y2="140" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3,2"/>
+                <text x="350" y="25" font-size="11" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">ASSEMBLY_v2 — Component Annotation Map</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">98.4%</span><span class="outcome-label">Label Accuracy Rate</span></div>
+              <div class="outcome-card"><span class="outcome-num">5</span><span class="outcome-label">Label Categories</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">QA Pass Rate</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p1');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <div class="project-panel-wrapper" id="panel-p2" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#0a1628,#0d2618);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>Take raw structural BIM models representing multi-storey structural frames and apply semantic labels to every element so AI systems could learn to identify structural components from 3D building data. Each element needed the correct IFC class, structural role documentation, and property set data.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">IFC Model Import</div><div class="detail-step-desc">Models imported into BlenderBIM/Bonsai from IFC format. Element tree reviewed to identify unlabelled or mislabelled components.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Element Classification</div><div class="detail-step-desc">Every structural element assigned its correct IFC class — IfcBeam, IfcColumn, IfcSlab, IfcWall — based on structural function and geometry.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Property Set Assignment</div><div class="detail-step-desc">Structural properties assigned to each element: material, load-bearing status, fire rating, and dimensional data embedded as IFC property sets.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Spatial Hierarchy</div><div class="detail-step-desc">Every element verified to sit in the correct IFC spatial container: Site → Building → Floor → Element.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Clash Detection</div><div class="detail-step-desc">Elements checked for spatial clashes — unexpected column/slab intersections, misaligned beams — and corrected before export.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">IFC Validation</div><div class="detail-step-desc">Final IFC files validated against IFC schema to confirm all labels, properties, and hierarchies were correctly formed.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>📊 Annotation Schema</h3>
+            <table class="schema-table">
+              <tr><th>Label</th><th>IFC Class</th><th>Structural Role</th></tr>
+              <tr><td>COL_A / COL_B</td><td>IfcColumn</td><td>Vertical load transfer to foundation</td></tr>
+              <tr><td>BEAM_L1 / L2</td><td>IfcBeam</td><td>Horizontal spanning between columns</td></tr>
+              <tr><td>SLAB_GF / 1F</td><td>IfcSlab</td><td>Floor and roof plate elements</td></tr>
+              <tr><td>WALL_EXT / INT</td><td>IfcWall</td><td>Load-bearing and partition walls</td></tr>
+              <tr><td>FOUND_PAD</td><td>IfcFooting</td><td>Pad and strip foundation elements</td></tr>
+            </table>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#071a10" rx="8"/>
+                <rect x="50" y="220" width="600" height="22" rx="3" fill="rgba(42,157,143,0.12)" stroke="#2ec4b6" stroke-width="1.5"/>
+                <text x="350" y="235" font-size="9" fill="#2ec4b6" font-family="monospace" text-anchor="middle">FOUND_PAD — IfcFooting</text>
+                <rect x="100" y="80" width="22" height="140" rx="2" fill="rgba(244,162,97,0.15)" stroke="#f4a261" stroke-width="2"/>
+                <text x="111" y="72" font-size="8" fill="#f4a261" font-family="monospace" text-anchor="middle">COL_A</text>
+                <rect x="330" y="80" width="22" height="140" rx="2" fill="rgba(244,162,97,0.15)" stroke="#f4a261" stroke-width="2"/>
+                <text x="341" y="72" font-size="8" fill="#f4a261" font-family="monospace" text-anchor="middle">COL_B</text>
+                <rect x="560" y="80" width="22" height="140" rx="2" fill="rgba(244,162,97,0.15)" stroke="#f4a261" stroke-width="2"/>
+                <text x="571" y="72" font-size="8" fill="#f4a261" font-family="monospace" text-anchor="middle">COL_C</text>
+                <rect x="122" y="80" width="208" height="14" rx="2" fill="rgba(46,196,182,0.2)" stroke="#2ec4b6" stroke-width="1.5"/>
+                <text x="226" y="91" font-size="8" fill="#2ec4b6" font-family="monospace" text-anchor="middle">BEAM_L1</text>
+                <rect x="352" y="80" width="208" height="14" rx="2" fill="rgba(46,196,182,0.2)" stroke="#2ec4b6" stroke-width="1.5"/>
+                <text x="456" y="91" font-size="8" fill="#2ec4b6" font-family="monospace" text-anchor="middle">BEAM_L2</text>
+                <rect x="85" y="155" width="515" height="18" rx="2" fill="rgba(155,93,229,0.15)" stroke="#9b5de5" stroke-width="1.5"/>
+                <text x="342" y="168" font-size="8.5" fill="#9b5de5" font-family="monospace" text-anchor="middle">SLAB_1F — IfcSlab</text>
+                <text x="350" y="20" font-size="9" fill="rgba(255,255,255,0.2)" font-family="monospace" text-anchor="middle">Structural Frame — IFC Semantic Annotation</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">IFC 4</span><span class="outcome-label">Schema Compliant</span></div>
+              <div class="outcome-card"><span class="outcome-num">5</span><span class="outcome-label">Element Types</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">Validation Pass</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p2');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <div class="project-panel-wrapper" id="panel-p3" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#1e1206,#0a1628);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>2D technical drawings are the universal language of manufacturing. The challenge was to annotate AutoCAD, VectorWorks, and LibreCAD drawings so AI models could read dimensions, tolerances, material specs, and part references — the way an experienced engineer does. Source files arrived in DWG, VWX, and DXF formats across three different CAD standards.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Drawing Intake</div><div class="detail-step-desc">Each drawing opened and reviewed — understanding part geometry, reading the title block, and identifying all dimension and annotation elements before labelling.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Title Block Extraction</div><div class="detail-step-desc">Part name, number, material, revision, and drawing scale extracted from title block and recorded as structured metadata fields.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Dimension Annotation</div><div class="detail-step-desc">Every dimension line tagged with value, unit, and type — linear, radial, angular, or ordinate. Dimension chains traced to ensure completeness.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Tolerance Tagging</div><div class="detail-step-desc">GD&T callouts, surface finish symbols, and fit tolerances identified and labelled with type and value.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Feature Labelling</div><div class="detail-step-desc">Holes, slots, chamfers, fillets, threads labelled by type and linked to their dimensional annotations.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">QA & Export</div><div class="detail-step-desc">Each annotated drawing reviewed against original, then exported with full annotation manifest.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>📊 Annotation Fields</h3>
+            <table class="schema-table">
+              <tr><th>Field</th><th>Example</th><th>Description</th></tr>
+              <tr><td>PART</td><td>BRK-04</td><td>Part identifier from title block</td></tr>
+              <tr><td>MAT</td><td>MILD STEEL</td><td>Material specification</td></tr>
+              <tr><td>DIM</td><td>75mm × 40mm</td><td>Key part dimensions</td></tr>
+              <tr><td>TOL</td><td>±0.05mm</td><td>Manufacturing tolerance</td></tr>
+              <tr><td>FEAT</td><td>HOLE_M8</td><td>Named geometric feature</td></tr>
+              <tr><td>REV</td><td>v3</td><td>Drawing revision</td></tr>
+            </table>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#0e0802" rx="8"/>
+                <rect x="30" y="20" width="640" height="220" rx="2" fill="none" stroke="rgba(244,162,97,0.25)" stroke-width="1.5"/>
+                <rect x="430" y="170" width="220" height="60" rx="1" fill="rgba(244,162,97,0.05)" stroke="rgba(244,162,97,0.25)" stroke-width="1"/>
+                <line x1="430" y1="188" x2="650" y2="188" stroke="rgba(244,162,97,0.15)" stroke-width="0.8"/>
+                <line x1="430" y1="206" x2="650" y2="206" stroke="rgba(244,162,97,0.15)" stroke-width="0.8"/>
+                <line x1="545" y1="170" x2="545" y2="230" stroke="rgba(244,162,97,0.15)" stroke-width="0.8"/>
+                <text x="440" y="183" font-size="7" fill="#f4a261" font-family="monospace">PART: BRK-04</text>
+                <text x="555" y="183" font-size="7" fill="rgba(255,255,255,0.5)" font-family="monospace">REV: v3</text>
+                <text x="440" y="200" font-size="7" fill="rgba(255,255,255,0.5)" font-family="monospace">MAT: MILD STEEL</text>
+                <text x="440" y="218" font-size="7" fill="rgba(255,255,255,0.5)" font-family="monospace">FINISH: Ra 1.6</text>
+                <path d="M80 60 L80 175 L200 175 L200 135 L280 135 L280 175 L380 175 L380 60 Z" fill="rgba(244,162,97,0.06)" stroke="#f4a261" stroke-width="2"/>
+                <circle cx="160" cy="118" r="18" fill="none" stroke="#2ec4b6" stroke-width="1.5" stroke-dasharray="4,2"/>
+                <circle cx="160" cy="118" r="3" fill="#2ec4b6"/>
+                <text x="185" y="115" font-size="7.5" fill="#2ec4b6" font-family="monospace">HOLE_M8</text>
+                <line x1="80" y1="195" x2="380" y2="195" stroke="#2ec4b6" stroke-width="1"/>
+                <line x1="80" y1="191" x2="80" y2="199" stroke="#2ec4b6" stroke-width="1.5"/>
+                <line x1="380" y1="191" x2="380" y2="199" stroke="#2ec4b6" stroke-width="1.5"/>
+                <text x="230" y="208" font-size="8.5" fill="#2ec4b6" font-family="monospace" text-anchor="middle">75mm</text>
+                <text x="350" y="18" font-size="9" fill="rgba(255,255,255,0.2)" font-family="monospace" text-anchor="middle">AutoCAD Technical Drawing — Annotated</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">7</span><span class="outcome-label">Annotation Fields</span></div>
+              <div class="outcome-card"><span class="outcome-num">3</span><span class="outcome-label">CAD Platforms</span></div>
+              <div class="outcome-card"><span class="outcome-num">98%+</span><span class="outcome-label">Accuracy Rate</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p3');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <!-- PROJECT 4: DHL -->
+      <div class="project-card" onclick="toggleProject('p4')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a1828,#0f243c);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#071220" stroke="#2ec4b6" stroke-width="1"/>
+            <rect x="40" y="90" width="20" height="30" rx="1" fill="rgba(42,157,143,0.6)"/>
+            <rect x="68" y="72" width="20" height="48" rx="1" fill="rgba(42,157,143,0.75)"/>
+            <rect x="96" y="55" width="20" height="65" rx="1" fill="rgba(42,157,143,0.9)"/>
+            <rect x="124" y="75" width="20" height="45" rx="1" fill="rgba(244,162,97,0.7)"/>
+            <rect x="152" y="45" width="20" height="75" rx="1" fill="rgba(42,157,143,0.85)"/>
+            <rect x="180" y="62" width="20" height="58" rx="1" fill="rgba(244,162,97,0.6)"/>
+            <line x1="35" y1="120" x2="215" y2="120" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+            <text x="50" y="131" font-size="5.5" fill="rgba(255,255,255,0.3)" font-family="monospace">MON</text>
+            <text x="78" y="131" font-size="5.5" fill="rgba(255,255,255,0.3)" font-family="monospace">TUE</text>
+            <text x="106" y="131" font-size="5.5" fill="rgba(255,255,255,0.3)" font-family="monospace">WED</text>
+            <text x="133" y="131" font-size="5.5" fill="rgba(255,255,255,0.3)" font-family="monospace">THU</text>
+            <text x="161" y="131" font-size="5.5" fill="rgba(255,255,255,0.3)" font-family="monospace">FRI</text>
+            <text x="32" y="30" font-size="7" fill="#2ec4b6" font-family="monospace">98.4% ACCURACY</text>
+            <text x="32" y="40" font-size="6" fill="rgba(255,255,255,0.4)" font-family="monospace">IBM COGNOS · DHL OPS</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Data Reporting · DHL Manchester</div>
+          <div class="project-title">Operational KPI Dashboard — IBM Cognos</div>
+          <div class="project-desc">Built and maintained operational reports at DHL tracking throughput, accuracy rates, and workflow efficiency across high-volume logistics shifts.</div>
+          <div class="project-tags"><span class="project-tag">IBM Cognos</span><span class="project-tag">KPI Reporting</span><span class="project-tag">DHL</span></div>
+          <button class="expand-btn" id="btn-p4">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PROJECT 5: RGIS -->
+      <div class="project-card" onclick="toggleProject('p5')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0d2a1f,#1a4a35);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#071a10" stroke="#2ec4b6" stroke-width="1"/>
+            <rect x="30" y="30" width="200" height="18" rx="2" fill="rgba(46,196,182,0.12)"/>
+            <text x="40" y="43" font-size="7.5" fill="#2ec4b6" font-family="monospace">SKU ID   COUNT   VARIANCE   STATUS</text>
+            <rect x="30" y="50" width="200" height="16" fill="rgba(244,162,97,0.06)"/>
+            <text x="40" y="62" font-size="7" fill="rgba(255,255,255,0.7)" font-family="monospace">A-1042   248     -12        ⚠ FLAG</text>
+            <rect x="30" y="66" width="200" height="16" fill="rgba(255,255,255,0.01)"/>
+            <text x="40" y="78" font-size="7" fill="rgba(255,255,255,0.7)" font-family="monospace">B-2201   503     0          ✓ CLEAR</text>
+            <rect x="30" y="82" width="200" height="16" fill="rgba(244,162,97,0.06)"/>
+            <text x="40" y="94" font-size="7" fill="rgba(255,255,255,0.7)" font-family="monospace">C-0087   174     -6         ⚠ FLAG</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">RGIS · Inventory Audit Report</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Inventory Audit · RGIS Manchester</div>
+          <div class="project-title">Stock Variance & Discrepancy Reporting</div>
+          <div class="project-desc">Executed structured inventory audits at RGIS — identifying stock variances, flagging discrepancies, and producing resolution reports for client sites.</div>
+          <div class="project-tags"><span class="project-tag">Inventory Auditing</span><span class="project-tag">Variance Analysis</span><span class="project-tag">RGIS</span></div>
+          <button class="expand-btn" id="btn-p5">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PROJECT 6: Rhino 3D -->
+      <div class="project-card" onclick="toggleProject('p6')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1a0e28,#280e3c);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#100820" stroke="#9b5de5" stroke-width="1"/>
+            <polygon points="130,30 80,100 180,100" fill="rgba(155,93,229,0.1)" stroke="#9b5de5" stroke-width="1.5"/>
+            <polygon points="130,30 180,100 195,65" fill="rgba(42,157,143,0.08)" stroke="#2ec4b6" stroke-width="1"/>
+            <polygon points="130,30 80,100 65,65" fill="rgba(42,157,143,0.08)" stroke="#2ec4b6" stroke-width="1"/>
+            <circle cx="130" cy="30" r="4" fill="#f4a261"/>
+            <text x="136" y="28" font-size="7" fill="#f4a261" font-family="monospace">VERTEX_TOP</text>
+            <circle cx="80" cy="100" r="3" fill="#2ec4b6"/>
+            <text x="42" y="112" font-size="6.5" fill="#2ec4b6" font-family="monospace">VERTEX_L</text>
+            <circle cx="180" cy="100" r="3" fill="#2ec4b6"/>
+            <text x="183" y="112" font-size="6.5" fill="#2ec4b6" font-family="monospace">VERTEX_R</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">Rhino 3D · Mesh Annotation</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">CAD · Rhino 3D · SolveSpace</div>
+          <div class="project-title">3D Surface & Mesh Model Annotation</div>
+          <div class="project-desc">Annotated 3D surface models in Rhino 3D and SolveSpace — labelling vertices, edges, faces for AI shape-recognition training datasets.</div>
+          <div class="project-tags"><span class="project-tag">Rhino 3D</span><span class="project-tag">SolveSpace</span><span class="project-tag">Mesh Labelling</span></div>
+          <button class="expand-btn" id="btn-p6">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PANEL ROW 2 -->
+      <div class="project-panel-wrapper" id="panel-p4" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#0a1628,#0f243c);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Context</h3>
+            <p>DHL's Manchester operation ran around the clock — multiple shifts, thousands of parcels, dozens of data touchpoints per hour. My role placed me at the heart of that data flow, responsible for generating the reports that shift managers and operations leads relied on to make decisions. Every number on the dashboard had to be right.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Data Source Setup</div><div class="detail-step-desc">Connected IBM Cognos Analytics to the operational database, mapping data sources for parcel throughput, scan events, error logs, and shift metrics.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Report Framework</div><div class="detail-step-desc">Designed standardised report layout: daily throughput by shift, data accuracy rate, error type breakdown, and workflow bottleneck indicators.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Validation Layer</div><div class="detail-step-desc">Built validation checks into the pipeline — flagging anomalous scan counts, duplicate entries, and timestamp mismatches before data reached the dashboard.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Daily Reports</div><div class="detail-step-desc">Reports generated at shift end and distributed to operations leads with narrative summary highlighting flagged anomalies and performance trends.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Weekly Trends</div><div class="detail-step-desc">Weekly reports aggregated daily data to surface patterns — recurring error types, peak throughput periods, and shifts below accuracy targets.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">Process Improvement</div><div class="detail-step-desc">Data-backed observations fed into weekly ops review meetings, leading to process changes that reduced recurring error types measurably.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Dashboard Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#071220" rx="8"/>
+                <text x="350" y="22" font-size="10" fill="rgba(255,255,255,0.2)" font-family="monospace" text-anchor="middle">DHL OPERATIONS — WEEKLY KPI DASHBOARD</text>
+                <rect x="30" y="35" width="145" height="55" rx="4" fill="rgba(46,196,182,0.08)" stroke="rgba(46,196,182,0.3)" stroke-width="1"/>
+                <text x="52" y="55" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace">THROUGHPUT</text>
+                <text x="52" y="78" font-size="20" fill="#2ec4b6" font-family="'Playfair Display',serif">98.4%</text>
+                <rect x="185" y="35" width="145" height="55" rx="4" fill="rgba(244,162,97,0.08)" stroke="rgba(244,162,97,0.3)" stroke-width="1"/>
+                <text x="207" y="55" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace">DAILY UNITS</text>
+                <text x="207" y="78" font-size="20" fill="#f4a261" font-family="'Playfair Display',serif">4,820</text>
+                <rect x="340" y="35" width="145" height="55" rx="4" fill="rgba(155,93,229,0.08)" stroke="rgba(155,93,229,0.3)" stroke-width="1"/>
+                <text x="362" y="55" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace">ERRORS</text>
+                <text x="362" y="78" font-size="20" fill="#9b5de5" font-family="'Playfair Display',serif">76</text>
+                <rect x="495" y="35" width="175" height="55" rx="4" fill="rgba(46,196,182,0.05)" stroke="rgba(46,196,182,0.2)" stroke-width="1"/>
+                <text x="517" y="55" font-size="8" fill="rgba(255,255,255,0.4)" font-family="monospace">SHIFT RATING</text>
+                <text x="517" y="78" font-size="18" fill="#2ec4b6">★★★★☆</text>
+                <rect x="30" y="105" width="400" height="130" rx="4" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                <text x="45" y="122" font-size="8" fill="rgba(255,255,255,0.25)" font-family="monospace">DAILY THROUGHPUT — MON TO FRI</text>
+                <rect x="55" y="195" width="40" height="35" rx="1" fill="rgba(46,196,182,0.5)"/>
+                <rect x="110" y="175" width="40" height="55" rx="1" fill="rgba(46,196,182,0.65)"/>
+                <rect x="165" y="160" width="40" height="70" rx="1" fill="rgba(46,196,182,0.8)"/>
+                <rect x="220" y="170" width="40" height="60" rx="1" fill="rgba(244,162,97,0.6)"/>
+                <rect x="275" y="150" width="40" height="80" rx="1" fill="rgba(46,196,182,0.9)"/>
+                <line x1="40" y1="230" x2="400" y2="230" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+                <text x="75" y="243" font-size="7" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">MON</text>
+                <text x="130" y="243" font-size="7" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">TUE</text>
+                <text x="185" y="243" font-size="7" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">WED</text>
+                <text x="240" y="243" font-size="7" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">THU</text>
+                <text x="295" y="243" font-size="7" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">FRI</text>
+                <rect x="445" y="105" width="225" height="130" rx="4" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                <text x="460" y="122" font-size="8" fill="rgba(255,255,255,0.25)" font-family="monospace">FLAGGED ANOMALIES</text>
+                <text x="460" y="145" font-size="7.5" fill="#f4a261" font-family="monospace">⚠ Duplicate scan — WED 14:22</text>
+                <text x="460" y="162" font-size="7.5" fill="#f4a261" font-family="monospace">⚠ Missing timestamp — THU</text>
+                <text x="460" y="179" font-size="7.5" fill="#2ec4b6" font-family="monospace">✓ Resolved — reprocessed</text>
+                <text x="460" y="196" font-size="7.5" fill="#2ec4b6" font-family="monospace">✓ All shifts validated</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">98.4%</span><span class="outcome-label">Data Accuracy</span></div>
+              <div class="outcome-card"><span class="outcome-num">16mo</span><span class="outcome-label">Consistent Reporting</span></div>
+              <div class="outcome-card"><span class="outcome-num">↓40%</span><span class="outcome-label">Recurring Error Rate</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p4');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <div class="project-panel-wrapper" id="panel-p5" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#0d2a1f,#0a1628);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Context</h3>
+            <p>RGIS is one of the world's largest inventory counting companies — clients include major retailers, warehouses, and distribution centres. As an Inventory Specialist, I was deployed to client sites across Manchester to conduct physical stock counts. My job wasn't just to count accurately; it was to identify where numbers didn't add up and produce reports that explained exactly why.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Pre-Audit Prep</div><div class="detail-step-desc">Expected stock counts downloaded from client system. Audit zones mapped and counting assignments distributed for full site coverage.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Physical Count</div><div class="detail-step-desc">Stock counted systematically — aisle by aisle, shelf by shelf — using RGIS scanning equipment. Every SKU scanned and quantities logged against expected baseline.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Variance Detection</div><div class="detail-step-desc">Actual counts compared against expected values. SKUs with variance beyond tolerance thresholds automatically flagged for secondary review.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Root Cause Analysis</div><div class="detail-step-desc">Flagged discrepancies investigated on-site — checking for miscounts, misplaced stock, damaged items, or system errors — root cause documented for each.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Discrepancy Report</div><div class="detail-step-desc">Structured report produced listing flagged SKUs, variance quantities, root cause findings, and recommended corrective actions.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">Sign-off</div><div class="detail-step-desc">Final counts validated, reports signed off, data submitted to client system. Post-submission queries resolved with full audit trail.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Audit Report Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="240" fill="#071a10" rx="8"/>
+                <text x="350" y="22" font-size="10" fill="rgba(255,255,255,0.2)" font-family="monospace" text-anchor="middle">RGIS INVENTORY AUDIT — DISCREPANCY REPORT</text>
+                <rect x="30" y="35" width="640" height="20" rx="2" fill="rgba(46,196,182,0.12)"/>
+                <text x="50" y="49" font-size="8.5" fill="#2ec4b6" font-family="monospace" font-weight="bold">SKU ID    DESCRIPTION         EXPECTED  ACTUAL  VARIANCE  STATUS</text>
+                <rect x="30" y="55" width="640" height="20" fill="rgba(244,162,97,0.06)"/>
+                <text x="50" y="69" font-size="8" fill="rgba(255,255,255,0.7)" font-family="monospace">A-1042    Bracket Assembly    260       248     -12       ⚠ FLAGGED</text>
+                <rect x="30" y="75" width="640" height="20" fill="rgba(255,255,255,0.01)"/>
+                <text x="50" y="89" font-size="8" fill="rgba(255,255,255,0.7)" font-family="monospace">B-2201    Packing Unit        503       503     0         ✓ CLEAR</text>
+                <rect x="30" y="95" width="640" height="20" fill="rgba(244,162,97,0.06)"/>
+                <text x="50" y="109" font-size="8" fill="rgba(255,255,255,0.7)" font-family="monospace">C-0087    Cable Reel          180       174     -6        ⚠ FLAGGED</text>
+                <rect x="30" y="115" width="640" height="20" fill="rgba(255,255,255,0.01)"/>
+                <text x="50" y="129" font-size="8" fill="rgba(255,255,255,0.7)" font-family="monospace">D-3310    Storage Bin         420       420     0         ✓ CLEAR</text>
+                <rect x="30" y="148" width="640" height="70" rx="4" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                <text x="50" y="165" font-size="8" fill="rgba(255,255,255,0.25)" font-family="monospace">ROOT CAUSE FINDINGS</text>
+                <text x="50" y="182" font-size="8" fill="#f4a261" font-family="monospace">A-1042:</text>
+                <text x="100" y="182" font-size="8" fill="rgba(255,255,255,0.55)" font-family="monospace">12 units in overflow bay — not counted in primary zone. Corrected.</text>
+                <text x="50" y="198" font-size="8" fill="#f4a261" font-family="monospace">C-0087:</text>
+                <text x="100" y="198" font-size="8" fill="rgba(255,255,255,0.55)" font-family="monospace">6 units damaged, removed to quarantine. Variance explained.</text>
+                <text x="50" y="214" font-size="8" fill="#2ec4b6" font-family="monospace">Final data integrity confirmed. Report submitted to client.</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">99%+</span><span class="outcome-label">Count Accuracy</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">On-Time Delivery</span></div>
+              <div class="outcome-card"><span class="outcome-num">9mo</span><span class="outcome-label">Deployment Period</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p5');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <div class="project-panel-wrapper" id="panel-p6" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#1a0e28,#0a1628);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>Rhino 3D lives in a different territory from FreeCAD — complex freeform surfaces, industrial design, and precision mesh geometry. The task was to annotate 3D surface models and parametric constraint geometries so AI systems could learn to identify geometric primitives — vertices, edges, faces, curves — from raw 3D data.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Model Analysis</div><div class="detail-step-desc">Each model analysed for topology — face count, curvature profile, key vertices, and constraint relationships in SolveSpace models.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Vertex Identification</div><div class="detail-step-desc">Key vertices — apex points, base vertices, inflection points — identified and labelled with spatial coordinates and geometric role.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Edge Classification</div><div class="detail-step-desc">Each edge classified by type — sharp crease, soft blend, silhouette, or boundary — and tagged with parent surface and connecting vertices.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Face Labelling</div><div class="detail-step-desc">Surface patches labelled by geometry type — planar, cylindrical, conical, toroidal, or freeform NURBS — linked to bounding edge loops.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Constraint Annotation</div><div class="detail-step-desc">In SolveSpace models, parametric constraints — distances, angles, coincident points — extracted and documented in the annotation manifest.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">Export & QA</div><div class="detail-step-desc">Annotated models exported with full manifests. Geometric consistency checks verified vertex coordinates and face normals.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#0a0415" rx="8"/>
+                <polygon points="350,40 180,210 520,210" fill="rgba(155,93,229,0.08)" stroke="#9b5de5" stroke-width="2"/>
+                <polygon points="350,40 520,210 580,125" fill="rgba(46,196,182,0.06)" stroke="#2ec4b6" stroke-width="1.5"/>
+                <polygon points="350,40 180,210 120,125" fill="rgba(46,196,182,0.06)" stroke="#2ec4b6" stroke-width="1.5"/>
+                <line x1="350" y1="40" x2="350" y2="210" stroke="rgba(155,93,229,0.25)" stroke-width="1" stroke-dasharray="4,3"/>
+                <line x1="265" y1="125" x2="435" y2="125" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3,3"/>
+                <circle cx="350" cy="40" r="7" fill="#f4a261" opacity="0.9"/>
+                <rect x="362" y="28" width="100" height="18" rx="3" fill="rgba(244,162,97,0.12)" stroke="rgba(244,162,97,0.35)" stroke-width="0.8"/>
+                <text x="412" y="40" font-size="8.5" fill="#f4a261" font-family="monospace" text-anchor="middle">VERTEX_TOP</text>
+                <circle cx="180" cy="210" r="6" fill="#2ec4b6" opacity="0.9"/>
+                <rect x="90" y="218" width="86" height="16" rx="3" fill="rgba(46,196,182,0.1)" stroke="rgba(46,196,182,0.35)" stroke-width="0.8"/>
+                <text x="133" y="229" font-size="8" fill="#2ec4b6" font-family="monospace" text-anchor="middle">VERTEX_L</text>
+                <circle cx="520" cy="210" r="6" fill="#2ec4b6" opacity="0.9"/>
+                <rect x="530" y="218" width="86" height="16" rx="3" fill="rgba(46,196,182,0.1)" stroke="rgba(46,196,182,0.35)" stroke-width="0.8"/>
+                <text x="573" y="229" font-size="8" fill="#2ec4b6" font-family="monospace" text-anchor="middle">VERTEX_R</text>
+                <text x="220" y="148" font-size="8" fill="rgba(155,93,229,0.75)" font-family="monospace">EDGE_L · silhouette</text>
+                <text x="430" y="148" font-size="8" fill="rgba(155,93,229,0.75)" font-family="monospace">EDGE_R · silhouette</text>
+                <text x="350" y="175" font-size="9" fill="rgba(255,255,255,0.25)" font-family="monospace" text-anchor="middle">FACE_A · freeform NURBS</text>
+                <text x="350" y="15" font-size="9" fill="rgba(255,255,255,0.18)" font-family="monospace" text-anchor="middle">Rhino 3D — Mesh Annotation Map</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">4</span><span class="outcome-label">Geometric Element Types</span></div>
+              <div class="outcome-card"><span class="outcome-num">2</span><span class="outcome-label">CAD Platforms</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">Schema Consistency</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p6');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <!-- PROJECT 7: Object Detection -->
+      <div class="project-card" onclick="toggleProject('p7')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a2020,#0f3030);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#061818" stroke="#2ec4b6" stroke-width="1"/>
+            <rect x="40" y="33" width="70" height="55" rx="1" fill="none" stroke="#f4a261" stroke-width="2"/>
+            <rect x="40" y="24" width="70" height="12" rx="1" fill="#f4a261"/>
+            <text x="75" y="33" font-size="7" fill="#000" font-family="monospace" font-weight="bold" text-anchor="middle">PART_A 94%</text>
+            <rect x="150" y="45" width="72" height="58" rx="1" fill="none" stroke="#2ec4b6" stroke-width="2"/>
+            <rect x="150" y="36" width="66" height="12" rx="1" fill="#2ec4b6"/>
+            <text x="183" y="45" font-size="7" fill="#fff" font-family="monospace" font-weight="bold" text-anchor="middle">PART_B 87%</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">Bounding Box Annotation</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">AI Annotation · Object Detection</div>
+          <div class="project-title">Bounding Box Dataset Preparation</div>
+          <div class="project-desc">Created bounding box annotation datasets for object detection models — labelling classes, confidence zones, and spatial references across large image batches.</div>
+          <div class="project-tags"><span class="project-tag">Bounding Boxes</span><span class="project-tag">Class Labelling</span><span class="project-tag">QA Review</span></div>
+          <button class="expand-btn" id="btn-p7">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- PROJECT 8: Point Cloud -->
+      <div class="project-card" onclick="toggleProject('p8')">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1e1a06,#2e2808);height:160px;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+            <rect x="20" y="15" width="220" height="110" rx="3" fill="#140f02" stroke="#f4a261" stroke-width="1"/>
+            <g fill="#f4a261" opacity="0.8">
+              <circle cx="80" cy="70" r="2.5"/><circle cx="90" cy="60" r="2"/><circle cx="100" cy="75" r="2.5"/>
+              <circle cx="88" cy="82" r="2"/><circle cx="72" cy="65" r="2.5"/><circle cx="95" cy="55" r="2"/>
+              <circle cx="76" cy="78" r="2"/><circle cx="85" cy="68" r="2.5"/>
+            </g>
+            <rect x="62" y="50" width="50" height="40" rx="2" fill="none" stroke="#f4a261" stroke-width="1.5" stroke-dasharray="4,2"/>
+            <text x="70" y="101" font-size="6.5" fill="#f4a261" font-family="monospace">OBJ_CLASS_1</text>
+            <g fill="#2ec4b6" opacity="0.8">
+              <circle cx="160" cy="75" r="2.5"/><circle cx="170" cy="65" r="2"/><circle cx="180" cy="78" r="2.5"/>
+              <circle cx="168" cy="85" r="2"/><circle cx="155" cy="68" r="2"/>
+              <circle cx="175" cy="70" r="2.5"/>
+            </g>
+            <rect x="143" y="55" width="48" height="38" rx="2" fill="none" stroke="#2ec4b6" stroke-width="1.5" stroke-dasharray="4,2"/>
+            <text x="148" y="103" font-size="6.5" fill="#2ec4b6" font-family="monospace">OBJ_CLASS_2</text>
+            <text x="32" y="118" font-size="6" fill="rgba(255,255,255,0.3)" font-family="monospace">Point Cloud · 3D Labelling</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">AI Training Data · Point Cloud</div>
+          <div class="project-title">Point Cloud & 3D Object Labelling</div>
+          <div class="project-desc">Classified and labelled 3D point cloud objects for autonomous systems training with QA review at each annotation stage.</div>
+          <div class="project-tags"><span class="project-tag">Point Cloud</span><span class="project-tag">3D Labels</span><span class="project-tag">QA Review</span></div>
+          <button class="expand-btn" id="btn-p8">📖 View Full Case Study <span class="arrow">▼</span></button>
+        </div>
+      </div>
+
+      <!-- Empty placeholder for grid alignment -->
+      <div style="display:none;"></div>
+
+      <!-- PANEL ROW 3 -->
+      <div class="project-panel-wrapper" id="panel-p7" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#0a2020,#0a1628);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>Object detection is one of the foundational tasks in computer vision. Before any model can identify what's in an image, a human has to teach it. The task involved preparing large-scale bounding box annotation datasets for object detection models — images containing industrial components and assembly elements that the model needed to learn to detect and classify precisely.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Batch Review</div><div class="detail-step-desc">Each image batch reviewed before annotation — checking quality, lighting consistency, and object visibility. Blurred images flagged and removed.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Class Schema Setup</div><div class="detail-step-desc">Class taxonomy defined per project — object types to detect, handling overlapping objects, and minimum confidence thresholds for partial visibility.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Bounding Box Drawing</div><div class="detail-step-desc">Tight bounding box drawn for each object — as close to the boundary as possible without clipping. Coordinates recorded in [x, y, width, height] format.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Class Label Assignment</div><div class="detail-step-desc">Each box assigned its class label. Ambiguous objects flagged for review rather than guessed — accuracy over speed.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Confidence Scoring</div><div class="detail-step-desc">Confidence score assigned to each annotation — reflecting how clearly visible the object was. Low-confidence annotations reviewed by second pass.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">QA & Export</div><div class="detail-step-desc">Complete dataset reviewed for missed objects, incorrect boxes, and class inconsistencies before final export for model training.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>📊 Annotation Format</h3>
+            <div class="code-block">{
+  "image_id": "frame_0042",
+  "annotations": [
+    {
+      "label": "PART_A",
+      "confidence": 0.94,
+      "bbox": [40, 38, 70, 55],
+      "format": "[x, y, width, height]",
+      "occluded": false
+    },
+    {
+      "label": "PART_B",
+      "confidence": 0.87,
+      "bbox": [140, 50, 80, 65],
+      "occluded": true,
+      "occlusion_pct": 15
+    }
+  ]
+}</div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#040e0e" rx="8"/>
+                <text x="350" y="18" font-size="9" fill="rgba(255,255,255,0.18)" font-family="monospace" text-anchor="middle">frame_0042.jpg — Annotated</text>
+                <rect x="30" y="28" width="640" height="210" rx="4" fill="#081818" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+                <rect x="60" y="50" width="160" height="130" rx="1" fill="none" stroke="#f4a261" stroke-width="2.5"/>
+                <line x1="60" y1="60" x2="60" y2="50" stroke="#f4a261" stroke-width="2.5"/><line x1="60" y1="50" x2="70" y2="50" stroke="#f4a261" stroke-width="2.5"/>
+                <line x1="210" y1="50" x2="220" y2="50" stroke="#f4a261" stroke-width="2.5"/><line x1="220" y1="50" x2="220" y2="60" stroke="#f4a261" stroke-width="2.5"/>
+                <line x1="60" y1="170" x2="60" y2="180" stroke="#f4a261" stroke-width="2.5"/><line x1="60" y1="180" x2="70" y2="180" stroke="#f4a261" stroke-width="2.5"/>
+                <line x1="210" y1="180" x2="220" y2="180" stroke="#f4a261" stroke-width="2.5"/><line x1="220" y1="170" x2="220" y2="180" stroke="#f4a261" stroke-width="2.5"/>
+                <rect x="60" y="38" width="105" height="15" rx="2" fill="#f4a261"/>
+                <text x="112" y="49" font-size="8.5" fill="#000" font-family="monospace" font-weight="bold" text-anchor="middle">PART_A · 94%</text>
+                <rect x="340" y="65" width="200" height="155" rx="1" fill="none" stroke="#2ec4b6" stroke-width="2.5"/>
+                <rect x="340" y="53" width="105" height="15" rx="2" fill="#2ec4b6"/>
+                <text x="393" y="64" font-size="8.5" fill="#000" font-family="monospace" font-weight="bold" text-anchor="middle">PART_B · 87%</text>
+                <rect x="450" y="205" width="85" height="13" rx="3" fill="rgba(244,162,97,0.18)" stroke="rgba(244,162,97,0.4)" stroke-width="0.8"/>
+                <text x="492" y="215" font-size="7" fill="#f4a261" font-family="monospace" text-anchor="middle">⚠ 15% occluded</text>
+                <rect x="30" y="244" width="640" height="14" rx="0 0 4 4" fill="rgba(46,196,182,0.04)"/>
+                <text x="50" y="254" font-size="7.5" fill="rgba(255,255,255,0.25)" font-family="monospace">Objects: 2 · Boxes: 2 · Confidence avg: 0.905 · QA: ✓ Passed</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">94%</span><span class="outcome-label">Avg Confidence Score</span></div>
+              <div class="outcome-card"><span class="outcome-num">0</span><span class="outcome-label">Unresolved Ambiguities</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">QA Pass Rate</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p7');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+      <div class="project-panel-wrapper" id="panel-p8" style="display:none;">
+        <div class="detail-inner" style="background:linear-gradient(135deg,#1e1a06,#0a1628);border-radius:12px;padding:2.5rem;">
+          <div class="detail-section">
+            <h3>📋 The Brief</h3>
+            <p>Point cloud annotation sits at the frontier of AI training data work. Unlike images, point clouds are raw 3D spatial data — millions of individual points captured by LiDAR or structured light sensors, each with an x, y, z coordinate. The task was to identify meaningful object clusters, assign class labels to each, and document spatial boundaries precisely enough for autonomous perception models to learn from.</p>
+          </div>
+          <div class="detail-section">
+            <h3>🔧 The Process</h3>
+            <div class="detail-steps">
+              <div class="detail-step"><div class="detail-step-num">Step 01</div><div class="detail-step-title">Scan File Loading</div><div class="detail-step-desc">Raw .pcd and .las scan files loaded and visualised in 3D. Initial inspection assessed point density, scan coverage, and presence of noise or artefacts.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 02</div><div class="detail-step-title">Noise Filtering</div><div class="detail-step-desc">Statistical outlier removal applied to clean the point cloud — eliminating stray points that would contaminate the annotation.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 03</div><div class="detail-step-title">Cluster Segmentation</div><div class="detail-step-desc">Point clusters segmented — isolating spatially distinct groups corresponding to individual objects. Density-based segmentation as primary method.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 04</div><div class="detail-step-title">Class Label Assignment</div><div class="detail-step-desc">Each cluster assigned its class label based on geometric profile and spatial context — no improvised classes, no guesses.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 05</div><div class="detail-step-title">Boundary Documentation</div><div class="detail-step-desc">3D bounding volumes fitted around each labelled cluster. Boundary coordinates recorded per cluster.</div></div>
+              <div class="detail-step"><div class="detail-step-num">Step 06</div><div class="detail-step-title">QA Review</div><div class="detail-step-desc">Annotated scans reviewed from multiple viewpoints — checking for missed clusters, label errors, and boundary fit quality.</div></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🖼️ Work Visual</h3>
+            <div class="detail-visual">
+              <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+                <rect width="700" height="260" fill="#060500" rx="8"/>
+                <text x="350" y="18" font-size="9" fill="rgba(255,255,255,0.18)" font-family="monospace" text-anchor="middle">scan_0091.pcd — Annotated Point Cloud</text>
+                <g fill="#f4a261" opacity="0.85">
+                  <circle cx="120" cy="120" r="3"/><circle cx="135" cy="108" r="2.5"/><circle cx="148" cy="125" r="3"/>
+                  <circle cx="128" cy="140" r="2.5"/><circle cx="155" cy="135" r="3"/><circle cx="142" cy="112" r="2"/>
+                  <circle cx="160" cy="118" r="2.5"/><circle cx="130" cy="128" r="3"/><circle cx="145" cy="145" r="2"/>
+                  <circle cx="118" cy="135" r="2.5"/><circle cx="138" cy="150" r="2"/><circle cx="162" cy="142" r="2.5"/>
+                  <circle cx="125" cy="115" r="2"/><circle cx="152" cy="128" r="3"/><circle cx="140" cy="138" r="2.5"/>
+                </g>
+                <rect x="108" y="98" width="64" height="62" rx="3" fill="none" stroke="#f4a261" stroke-width="2" stroke-dasharray="5,3" opacity="0.8"/>
+                <rect x="108" y="84" width="110" height="14" rx="2" fill="rgba(244,162,97,0.12)" stroke="rgba(244,162,97,0.35)" stroke-width="1"/>
+                <text x="163" y="94" font-size="8" fill="#f4a261" font-family="monospace" text-anchor="middle">OBJ_CLASS_1 · 142pts</text>
+                <g fill="#2ec4b6" opacity="0.85">
+                  <circle cx="350" cy="130" r="3"/><circle cx="365" cy="118" r="2.5"/><circle cx="378" cy="135" r="3"/>
+                  <circle cx="358" cy="150" r="2.5"/><circle cx="385" cy="145" r="3"/><circle cx="372" cy="122" r="2"/>
+                  <circle cx="390" cy="138" r="2.5"/><circle cx="360" cy="138" r="3"/><circle cx="375" cy="155" r="2"/>
+                  <circle cx="348" cy="145" r="2.5"/><circle cx="368" cy="160" r="2"/>
+                </g>
+                <rect x="338" y="108" width="64" height="62" rx="3" fill="none" stroke="#2ec4b6" stroke-width="2" stroke-dasharray="5,3" opacity="0.8"/>
+                <rect x="338" y="94" width="100" height="14" rx="2" fill="rgba(46,196,182,0.1)" stroke="rgba(46,196,182,0.35)" stroke-width="1"/>
+                <text x="388" y="104" font-size="8" fill="#2ec4b6" font-family="monospace" text-anchor="middle">OBJ_CLASS_2 · 98pts</text>
+                <g fill="rgba(255,255,255,0.12)">
+                  <circle cx="230" cy="190" r="1.5"/><circle cx="260" cy="200" r="1"/><circle cx="290" cy="185" r="1.5"/>
+                  <circle cx="500" cy="170" r="1"/><circle cx="530" cy="190" r="1.5"/><circle cx="560" cy="175" r="1"/>
+                  <circle cx="600" cy="200" r="1.5"/><circle cx="620" cy="185" r="1"/>
+                  <circle cx="80" cy="220" r="1.5"/><circle cx="450" cy="230" r="1"/>
+                </g>
+                <text x="530" y="190" font-size="8" fill="rgba(255,255,255,0.2)" font-family="monospace">OBJ_CLASS_3 · background</text>
+                <rect x="30" y="240" width="640" height="14" rx="3" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+                <text x="50" y="250" font-size="7.5" fill="rgba(255,255,255,0.25)" font-family="monospace">Total: 12,840pts · Clusters: 2 · Background: 12,600 · Export: ✓ validated</text>
+              </svg>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>🏆 Outcomes</h3>
+            <div class="detail-outcomes">
+              <div class="outcome-card"><span class="outcome-num">3</span><span class="outcome-label">Class Labels Applied</span></div>
+              <div class="outcome-card"><span class="outcome-num">4+</span><span class="outcome-label">Viewpoints Per Review</span></div>
+              <div class="outcome-card"><span class="outcome-num">100%</span><span class="outcome-label">QA Validated</span></div>
+            </div>
+          </div>
+          <button class="close-btn" onclick="toggleProject('p8');event.stopPropagation();">▲ Close Case Study</button>
+        </div>
+      </div>
+
+    </div><!-- end projects-grid -->
+  </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <p class="section-label">Career Journey</p>
+    <h2 class="section-title">Professional Experience</h2>
+    <p class="section-intro">A career built on data precision, structured validation, and technical detail.</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="job-header">
+          <span class="job-title">CAD Annotation Specialist & Data Analyst <span class="current-badge">Current</span></span>
+          <span class="job-date">Apr 2025 – Present</span>
+        </div>
+        <div class="job-company">Independent Projects · Dallas, Texas, USA</div>
+        <ul class="job-bullets">
+          <li>Producing annotated 3D CAD models using FreeCAD, AutoCAD Mechanical, Rhino 3D, VectorWorks, BlenderBIM/Bonsai, LibreCAD, and SolveSpace</li>
+          <li>Building and refining digital assets to support AI model training workflows, ensuring labelling accuracy and consistency</li>
+          <li>Applying structured data validation and quality review processes across all annotation deliverables</li>
+          <li>Supporting data systems workflow documentation including HR platform analysis and process mapping</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="job-header">
+          <span class="job-title">Associate</span>
+          <span class="job-date">Sep 2023 – Jan 2025</span>
+        </div>
+        <div class="job-company">DHL · Manchester, United Kingdom</div>
+        <ul class="job-bullets">
+          <li>Supported high-volume operations with focus on data accuracy and reporting integrity</li>
+          <li>Generated operational reports using IBM Cognos Analytics — maintaining 98.4% data accuracy</li>
+          <li>Conducted data validation and system checks to improve data integrity across teams</li>
+          <li>Collaborated cross-functionally to identify and optimise workflow inefficiencies</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="job-header">
+          <span class="job-title">Inventory Specialist</span>
+          <span class="job-date">Dec 2022 – Aug 2023</span>
+        </div>
+        <div class="job-company">RGIS · Manchester, United Kingdom</div>
+        <ul class="job-bullets">
+          <li>Executed precision inventory audits with consistently high accuracy across client sites</li>
+          <li>Identified and resolved data discrepancies through structured root cause analysis and reporting</li>
+          <li>Maintained data integrity across inventory management systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-inner">
+    <p class="section-label">Academic Background</p>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-degree">Master of Science (MSc)</div>
+        <div class="edu-field">Logistics & Supply Chain Management</div>
+        <div class="edu-school">University of Hull · Hull, United Kingdom</div>
+        <div class="edu-year">2024</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">Bachelor of Science (BSc)</div>
+        <div class="edu-field">Agronomy & Crop Science</div>
+        <div class="edu-school">Babcock University · Nigeria</div>
+        <div class="edu-year">2012</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">English Language Proficiency</div>
+        <div class="edu-field">C2 — CEFR Framework (Proficient User)</div>
+        <div class="edu-school">Educated and professionally active in English-speaking environments — UK (2022–2025), USA (2025–present)</div>
+        <div class="edu-year">Verified by academic & work history</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label">Let's Talk</p>
+    <h2 class="section-title">Open to New Opportunities</h2>
+    <p class="contact-desc">Available for CAD annotation, AI training data, and data analyst roles. Remote-ready, detail-oriented, and always open to interesting technical work.</p>
+    <div class="contact-links">
+      <a href="mailto:pallyleke@gmail.com" class="contact-link">✉ pallyleke@gmail.com</a>
+      <a href="tel:+14699937632" class="contact-link">📞 +1 (469) 993-7632</a>
+      <a href="https://github.com/pallyleke-dev" class="contact-link" target="_blank">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/segun-olukayode" class="contact-link" target="_blank">💼 LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Segun Olukayode · CAD Annotation Specialist · AI Training Data · Dallas, Texas</footer>
+
+<script>
+function toggleProject(id) {
+  const panel = document.getElementById('panel-' + id);
+  const btn = document.getElementById('btn-' + id);
+  const allPanels = document.querySelectorAll('.project-panel-wrapper');
+  const allBtns = document.querySelectorAll('.expand-btn');
+
+  // Close all other panels
+  allPanels.forEach(p => {
+    if (p.id !== 'panel-' + id) {
+      p.style.display = 'none';
+    }
+  });
+  allBtns.forEach(b => {
+    if (b.id !== 'btn-' + id) {
+      b.classList.remove('open');
+      b.innerHTML = '📖 View Full Case Study <span class="arrow">▼</span>';
+    }
+  });
+
+  // Toggle current
+  if (panel.style.display === 'none' || panel.style.display === '') {
+    panel.style.display = 'block';
+    btn.classList.add('open');
+    btn.innerHTML = '📖 Close Case Study <span class="arrow">▼</span>';
+    // Smooth scroll to panel
+    setTimeout(() => {
+      panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  } else {
+    panel.style.display = 'none';
+    btn.classList.remove('open');
+    btn.innerHTML = '📖 View Full Case Study <span class="arrow">▼</span>';
+  }
+}
+</script>
+
+</body>
+</html>
